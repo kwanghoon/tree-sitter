@@ -1,0 +1,1007 @@
+ 1073  stack runhaskell PathServer.hs 
+ 1074  cd noh
+ 1075  ls
+ 1076  unzip wbserver_224532_노승민.zip/
+ 1077  ls
+ 1078  mv wbserver_224532_노승민.zip wbserver_224532_noh.zip
+ 1079  ls
+ 1080  rm -Rf __MACOSX/
+ 1081  ls
+ 1082  unzip wbserver_224532_noh.zip
+ 1083  mv wbserver_224532_noh.zip/ dir
+ 1084  ls
+ 1085  cd dir
+ 1086  ls
+ 1087  ls -al
+ 1088  cp t2.hs ../..
+ 1089  cd ../..
+ 1090  stack runhaskell t2
+ 1091  ls -al
+ 1092  cd
+ 1093  cd work/research/sac2024
+ 1094  ls
+ 1095  git status
+ 1096  xdg-open sac2024final.pdf
+ 1097  pwd
+ 1098  ls -l
+ 1099  ls *.png
+ 1100  ls *.bib
+ 1101  ls *.tex
+ 1102  ls *.cls
+ 1103  cd TEMP
+ 1104  ls
+ 1105  cp ../*.zip .
+ 1106  unzip sac2024final.zip 
+ 1107  ls -al
+ 1108  pdflatex sac2024final.tex
+ 1109  bibtex sac2024final.tex
+ 1110  bibtex sac2024final
+ 1111  pdflatex sac2024final.tex
+ 1112  xdg-open sac2024final.pdf
+ 1113  cd
+ 1114  cd work/lang/haskell/sbparser/
+ 1115  ls -al
+ 1116  pwd
+ 1117  cd ../../lecture
+ 1118  cd
+ 1119  cd work/lecture/
+ 1120  ls -al
+ 1121  cd ../research/kwanghoon.github.io/
+ 1122  ls
+ 1123  git status
+ 1124  git commit -a -m "compiler lecture"
+ 1125  cat ~/work/git_token.txt
+ 1126  git push origin main
+ 1127  ls security.html 
+ 1128  ls -al
+ 1129  cd seminar
+ 1130  ls
+ 1131  ls -al
+ 1132  cd ai_security/
+ 1133  ls -al
+ 1134  cd ..
+ 1135  ls fuzzing_2023_09/
+ 1136  ls ./supply_chain_security/
+ 1137  cd ai_security/
+ 1138  ls
+ 1139  cp ../fuzzing_2023_09/index.html .
+ 1140  ls -al
+ 1141  git status
+ 1142  git commit -a -m "vnn tools"
+ 1143  git add index.html
+ 1144  git commit -a -m "vnn tools"
+ 1145  cat ~/work/git_token.txt
+ 1146  git push origin main
+ 1147  cd ..
+ 1148  ls
+ 1149  cd fuzzing_2023_09/
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd supply_chain_security/
+ 1154  ls
+ 1155  cd ..
+ 1156  git status
+ 1157  git commit -a -m "typos"
+ 1158  cat ~/work/git_token.txt
+ 1159  git push origin main
+ 1160  cd ai_security/
+ 1161  ls
+ 1162  git commit -a -m "typo"
+ 1163  cat ~/work/git_token.txt
+ 1164  git push origin main
+ 1165  cd ..
+ 1166  ls -al
+ 1167  cp ai_security/index.html .
+ 1168  ls
+ 1169  git status
+ 1170  git add index.html
+ 1171  cat ~/work/git_token.txt
+ 1172  git push origin main
+ 1173  git commit -a -m "seminar"
+ 1174  git push origin main
+ 1175  cd
+ 1176  cd work/research/sac2024
+ 1177  ls -al
+ 1178  xdg-open sac2024final.pdf
+ 1179  pdflatex sac2024final.pdf
+ 1180  pdflatex sac2024final.tex
+ 1181  xdg-open sac2024final.pdf
+ 1182  ls -al
+ 1183  cp sac2024final.tex ./TEMP/
+ 1184  ls -al
+ 1185  cp sac2024final.pdf TEMP
+ 1186  pushd ~/work/research/kwanghoon.github.io/security
+ 1187  ls
+ 1188  pushd ~/work/research/kwanghoon.github.io
+ 1189  ls
+ 1190  cd seminar/ai_security/
+ 1191  ls
+ 1192  cd semin
+ 1193  ls -al
+ 1194  git status
+ 1195  git commit -a -m "update the security index"
+ 1196  cat ~/work/git_token.txt
+ 1197  git push origin main
+ 1198  cd
+ 1199  cd work/lecture/Lecture_EOPL/
+ 1200  ls -al
+ 1201  cd ch7
+ 1202  ls -al
+ 1203  cat test3.checked
+ 1204  cd ..
+ 1205  ls -al
+ 1206  git fetch
+ 1207  cat ~/work/git_token.txt
+ 1208  git push origin main
+ 1209  git fetch
+ 1210  ls -al
+ 1211  ls -al slides
+ 1212  pwd
+ 1213  cd slides
+ 1214  ls
+ 1215  cp eopl8.tex eopl9.tex
+ 1216  pdflatex eopl9.tex
+ 1217  ls -al
+ 1218  git status
+ 1219  ls eopl9.*
+ 1220  ls -al
+ 1221  xdg-open eopl9.pdf
+ 1222  cd
+ 1223  cd work/research/sac2024
+ 1224  ls -al
+ 1225  ls *.cls
+ 1226  ls *.pdf
+ 1227  cd TEMP
+ 1228  ls
+ 1229  xdg-open sac2024final.pdf
+ 1230  cd ..
+ 1231  diff sac2024final.tex ./TEMP/sac2024final.tex
+ 1232  git status
+ 1233  git diff sac2024final.tex
+ 1234  cat ~/work/git_token.txt
+ 1235  git commit -a -m "update acmDOI"
+ 1236  git push origin main
+ 1237  cd
+ 1238  cd work/lang/z3/
+ 1239  ls
+ 1240  cd ../
+ 1241  ls
+ 1242  cd ../research/
+ 1243  ls
+ 1244  history | grep z3
+ 1245  cd ../lang/z3/z3
+ 1246  ls
+ 1247  ls -al
+ 1248  pwd
+ 1249  cd ..
+ 1250  ls
+ 1251  cd z3
+ 1252  ls
+ 1253  ls *.hs
+ 1254  history | grep quickCheck
+ 1255  history 
+ 1256  find . -name "XorNN.hs"
+ 1257  cd ../../
+ 1258  cd ..
+ 1259  history | grep -i nnv
+ 1260  cd research/nnv
+ 1261  ls
+ 1262  ls -al
+ 1263  cd ../nnstudy/
+ 1264  ls
+ 1265  cd NNV/
+ 1266  ls -al
+ 1267  stack ghci XorNN.hs 
+ 1268  ls -al
+ 1269  z3
+ 1270  z3 xor_nn.smtlib
+ 1271  ls
+ 1272  stack ghci XorNN.hs 
+ 1273  ls -al
+ 1274  stack ghci XorNN.hs 
+ 1275  ls
+ 1276  ls -al
+ 1277  pwd
+ 1278  ls -al
+ 1279  z3 xor_nn.smtlib 
+ 1280  git status
+ 1281  git commit -a -m "update the properties"
+ 1282  cat ~/work/git_token.txt
+ 1283  git push origin main
+ 1284  z3 --version
+ 1285  git add README.md
+ 1286  git commit -a -m "README.md"
+ 1287  cat ~/work/git_token.txt
+ 1288  git push origin main
+ 1289  git commit -a -m "update README.md"
+ 1290  git push origin main
+ 1291  exit
+ 1292  cabal run
+ 1293  cabal update
+ 1294  cabal run
+ 1295  cabal run playground
+ 1296  cabal run playground alice
+ 1297  cabal run playground bob
+ 1298  cabal repl
+ 1299  cabal run pure
+ 1300  cabal repl
+ 1301  cd work/lang/
+ 1302  cd ~/temp
+ 1303  git clone https://github.com/SmartThingsCommunity/SmartThingsPublic
+ 1304  cd smartapps
+ 1305  ls
+ 1306  cd SmartThingsPublic/
+ 1307  cd smartapps/
+ 1308  ls -al
+ 1309  find . 
+ 1310  find . -name "*.groovy"
+ 1311  find . -name "*.groovy" | wc
+ 1312  exit
+ 1313  cd work/lang/haskell/
+ 1314  ls
+ 1315  cd ../c
+ 1316  ls
+ 1317  git clone https://github.com/moonyeonah/FunctionPointer
+ 1318  git clone https://github.com/kwanghoon/FunctionPointer
+ 1319  ls -al
+ 1320  cd FunctionPointer/
+ 1321  ls -al
+ 1322  git branch
+ 1323  git clone -b master https://github.com/kwanghoon/FunctionPointer
+ 1324  git branch
+ 1325  git checkout origin/master
+ 1326  git branch
+ 1327  ls
+ 1328  cd ../../haskell/c11parser
+ 1329  ls -al
+ 1330  history | grep grep
+ 1331  ls -al
+ 1332  stack exec -- c11parser-exe ../../c/FunctionPointer/fun_ptr_arg.c
+ 1333  stack build
+ 1334  pwd
+ 1335  stack exec -- c11parser-exe ../../c/FunctionPointer/fun_ptr_arg.c
+ 1336  cd ../../c/FunctionPointer/
+ 1337  ls
+ 1338  grep "->" fun_ptr_arg.log
+ 1339  grep "\->" fun_ptr_arg.log
+ 1340  grep "-\>" fun_ptr_arg.log
+ 1341  grep "Reduce" fun_ptr_arg.log
+ 1342  grep Reduce fun_ptr_arg.log
+ 1343  grep " -> " fun_ptr_arg.log
+ 1344  grep " ->" fun_ptr_arg.log
+ 1345  grep --help
+ 1346  grep '->' fun_ptr_arg.log
+ 1347  grep '\->' fun_ptr_arg.log
+ 1348  grep '\-\>' fun_ptr_arg.log
+ 1349  grep '->' fun_ptr_arg.log
+ 1350  ls *.log
+ 1351  grep '->' fun_ptr_in_struct.log
+ 1352  grep '>' fun_ptr_in_struct.log
+ 1353  grep '\>' fun_ptr_in_struct.log
+ 1354  grep '->' *.log
+ 1355  grep '\->' *.log
+ 1356  grep ' ->' *.log
+ 1357  grep ' -' *.log
+ 1358  grep 'R' *.log
+ 1359  ls -al
+ 1360  file fun_ptr_arg.log
+ 1361  grep -i error *.log
+ 1362  grep -i name *.log
+ 1363  grep -i token *.log
+ 1364  which grep
+ 1365  egrep -i token *.log
+ 1366  egrep '^[T]' *.log
+ 1367  dos2unix *.log
+ 1368  sudo apt install dos2unix
+ 1369  dos2unix *.log
+ 1370  ls -al
+ 1371  grep -i name *.log
+ 1372  grep '\->' *.log
+ 1373  find . -name "*.log" -exec grep "\->" \{\} > \{\}_prod_rules \;
+ 1374  ls
+ 1375  xargs
+ 1376  ls *.log
+ 1377  grep '\->fun_ptr_arg.log 
+ 1378  grep '\->' fun_ptr_arg.log  > fun_ptr_arg.reduce
+ 1379  cat fun_ptr_arg.reduce 
+ 1380  ls *.log
+ 1381  grep '\->' fun_ptr_array.log  > fun_ptr_array.reduce
+ 1382  grep '\->' fun_ptr_decl.log  > fun_ptr_decl.reduce
+ 1383  grep '\->' fun_ptr_in_ret.log  > fun_ptr_in_decl.reduce
+ 1384  grep '\->' fun_ptr_in_struct.log  > fun_ptr_in_struct.reduce
+ 1385  grep '\->' fun_ptr_with_fun_ptr_arg.log  > fun_ptr_with_fun_ptr_arg.reduce
+ 1386  grep '\->' fun_ptr_with_fun_ptr_array.log  > fun_ptr_with_fun_ptr_array.reduce
+ 1387  grep '\->' fun_ptr_with_fun_ptr_array_arg.log  > fun_ptr_with_fun_ptr_array_arg.reduce
+ 1388  grep '\->' fun_ptr_with_fun_ptr_ret.log  > fun_ptr_with_fun_ptr_ret.reduce
+ 1389  ls -al
+ 1390  rm {}_prod_rules
+ 1391  ls -al
+ 1392  git status
+ 1393  ls FunctionPointer/
+ 1394  rm -Rf FunctionPointer/
+ 1395  ls -al
+ 1396  git status
+ 1397  git add -a -m
+ 1398  git add -a
+ 1399  git add -a *.reduce
+ 1400  git add *.reduce
+ 1401  git status
+ 1402  git commit -a -m "reduce sequences"
+ 1403  git branch
+ 1404  git push origin
+ 1405  git push origin origin/master
+ 1406  cat ~/work/git_token.txt
+ 1407  git push origin origin/master
+ 1408  git status
+ 1409  git push origin HEAD
+ 1410  git switch -c main
+ 1411  git branch
+ 1412  git switch -c master
+ 1413  ls al
+ 1414  ls -al
+ 1415  git status
+ 1416  git push origin master
+ 1417  ls -l *.reduce
+ 1418  git rm fun_ptr_with_fun_ptr_array.reduce
+ 1419  git status
+ 1420  git commit -a -m "rm"
+ 1421  cat ~/work/git_token.txt
+ 1422  git push origin master
+ 1423  git status
+ 1424  git push origin/master master
+ 1425  git push myorigin master
+ 1426  git remote -v
+ 1427  git push origin master
+ 1428  cd ..
+ 1429  ls -al
+ 1430  rm -Rf FunctionPointer/
+ 1431  git clone https://github.com/kwanghoon/FunctionPointer
+ 1432  cd FunctionPointer/
+ 1433  git branch
+ 1434  git status
+ 1435  ls -al
+ 1436  cd ..
+ 1437  rm -Rf FunctionPointer/
+ 1438  git clone -b master https://github.com/kwanghoon/FunctionPointer
+ 1439  cd FunctionPointer/
+ 1440  ls -al
+ 1441  git rm fun_ptr_with_fun_ptr_array.reduce
+ 1442  cat ~/work/git_token.txt
+ 1443  git commit -a -m "rm zero file"
+ 1444  git push origin main
+ 1445  git push origin master
+ 1446  cd ..
+ 1447  rm -Rf FunctionPointer/
+ 1448  git clone https://github.com/kwanghoon/FunctionPointer
+ 1449  cd FunctionPointer/
+ 1450  git branch | cat -
+ 1451  ls -l *.reduce
+ 1452  git rm fun_ptr_with_fun_ptr_array.reduce
+ 1453  ls -l *.reduce
+ 1454  git commit -a -m "rm zero file"
+ 1455  cat ~/work/git_token.txt
+ 1456  git push origin main
+ 1458  git push origin main
+ 1459  cd ..
+ 1460  rm -Rf FunctionPointer/
+ 1461  ls -al
+ 1462  exit
+ 1463  cd work/lang/haskell
+ 1464  cd c11parser/
+ 1465  cd examples/
+ 1466  ls
+ 1467  ls *.c
+ 1468  cd ..
+ 1469  ls *.c
+ 1470  ls -al
+ 1471  history 
+ 1472  cd ..
+ 1473  ls
+ 1474  find . -name "*.reduce"
+ 1475  cd ..
+ 1476  find . -name "*.reduce"
+ 1477  cd haskell
+ 1478  ls
+ 1479  cd c11parser/
+ 1480  ls
+ 1481  ls -al
+ 1482  cd ..
+ 1483  ls
+ 1484  git clone https://github.com/kwanghoon/FunctionPointer
+ 1485  cd FunctionPointer/
+ 1486  ls -l
+ 1487  git branch
+ 1488  ls -al
+ 1489  stack exec -- c11parser-exe ./fun_ptr_ret.c
+ 1490  cd ../c11parser/
+ 1491  stack exec -- c11parser-exe ../FunctionPointer//fun_ptr_ret.c
+ 1492  stack exec -- c11parser-exe ../FunctionPointer//fun_ptr_ret.c 2> fun_ptr_ret.log
+ 1493  grep "->" fun_ptr_ret.log > fun_ptr_ret.reduce
+ 1494  grep "-\>" fun_ptr_ret.log > fun_ptr_ret.reduce
+ 1495  history | grep grep
+ 1496  ls
+ 1497  grep "\->" fun_ptr_ret.log > fun_ptr_ret.reduce
+ 1498  git status
+ 1499  cp fun_ptr_ret.* ../FunctionPointer/
+ 1500  cd ../FunctionPointer/
+ 1501  ls -al
+ 1502  git status
+ 1503  git add fun_ptr_ret.*
+ 1504  git commit -a -m "fun_ptr_ret"
+ 1505  cat ~/work/git_token.txt
+ 1506  git push origin main
+ 1507  exit
+ 1508  pwd
+ 1509  ls -al
+ 1510  which docker
+ 1511  cd work/security
+ 1512  cd work
+ 1513  mkdir security
+ 1514  cd security/
+ 1515  ls
+ 1516  git clone https://github.com/digininja/DVWA
+ 1517  cd DVWA
+ 1518  ls
+ 1519  docker compose up -d
+ 1520  sudo docker compose up -d
+ 1521  ls -al
+ 1522  docker status
+ 1523  docker ls
+ 1524  docker --help
+ 1525  docker info
+ 1526  docker images
+ 1527  sudo docker images
+ 1528  date
+ 1529  pwd
+ 1530  ls -al
+ 1531  cd ..
+ 1532  git clone https://github.com/sullo/nikto
+ 1533  cd nikto
+ 1534  ls
+ 1535  cd program
+ 1536  ls
+ 1537  docker ls
+ 1538  docker status
+ 1539  docker images
+ 1540  sudo docker images
+ 1541  which perl
+ 1542  ./nikto.pl -help
+ 1543  ./nikto.pl -version
+ 1544  ./nikto.pl --version
+ 1545  ./nikto.pl -h http://localhost:4280
+ 1546  sudo docker images
+ 1547  ./nikto.pl -h http://localhost:4280
+ 1548  vim nikto.pl
+ 1549  clear
+ 1550  exit
+ 1551  sudo docker images
+ 1552  ./nikto.pl -h http://localhost:4280
+ 1553  exit
+ 1554  ls
+ 1555  cd ..
+ 1556  ls
+ 1557  history 
+ 1558  cd ../security
+ 1559  ls
+ 1560  exit
+ 1561  cd work/security/
+ 1562  ls
+ 1563  sudo docker images
+ 1564  cd nikto/program/
+ 1565  ls 
+ 1566  ./nikto.pl -h http://localhost:4280
+ 1567  pwd
+ 1568  ls -al
+ 1569  history
+ 1570  ./nikto.pl -h http://localhost
+ 1571  ./nikto.pl -h http://localhost:4280
+ 1572  history
+ 1573  pwd
+ 1574  ls
+ 1575  cls
+ 1576  ./nikto.pl -h http://localhost:4280
+ 1577  cd ../..
+ 1578  ls -al
+ 1579  sudo apt install crunch
+ 1580  sudo apt-get update
+ 1581  sudo apt install crunch
+ 1582  sudo apt-get install crunch
+ 1583  exit
+ 1584  cd work/security/
+ 1585  ls
+ 1586  sudo apt-get install crunch
+ 1587  crunch 6 8 abc12=+ -o test.txt
+ 1588  less test.txt
+ 1589  sudo apt-get install hydra
+ 1590  hydra --help
+ 1591  hydra -l choi -P ./test.txt -s 2045 selab.jnu.ac.kr ssh 
+ 1592  clear
+ 1593  exit
+ 1594  cd work/security/
+ 1595  ls *.txt
+ 1596  rm test.txt
+ 1597  exit
+ 1598  find . -name "*pal*
+ 1599  cd work
+ 1600  find . -name "*pal*
+ 1601  find . -name *pal*:
+ 1602  find . -name "*pal*"
+ 1603  cd lang/langchain
+ 1604  ls
+ 1605  cat memo.txt
+ 1606  git log 
+ 1607  ls
+ 1608  ls -al
+ 1609  pwd
+ 1610  python palchainTest.py
+ 1611  python3 palchainTest.py
+ 1612  ls
+ 1613  ls -l
+ 1615  python3 palchainTest.py
+ 1616  echo $OPENAI_API_KEY
+ 1618  echo $OPENAI_API_KEY
+ 1619  python3 palchainTest.py
+ 1620  find . -name "*.py" -print -exec grep text-davinci \{\} \;
+ 1621  find . -name "*.py" -exec grep text-davinci \{\} \; -print
+ 1622  python3 palchainTest.py
+ 1623  ls
+ 1624  python3 palchainTest.py
+ 1625  clear
+ 1626  ls
+ 1627  python3 palchainTest.py
+ 1628  pwd
+ 1629  exit
+ 1630  cd work/lang/python
+ 1631  ls
+ 1632  cd ChatGPT/
+ 1633  ls
+ 1634  cd ..
+ 1635  find . -name "*palchain*"
+ 1636  cd langchain
+ 1637  ls
+ 1638  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 1639  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+ 1640  exit
+ 1641  cd work/lang/
+ 1642  pwd
+ 1643  ls -al
+ 1644  git clone https://github.com/tree-sitter/haskell-tree-sitter
+ 1645  rm -Rf haskell-tree-sitter/
+ 1646  cd haskell
+ 1647  git clone https://github.com/tree-sitter/haskell-tree-sitter
+ 1648  cd haskell-tree-sitter
+ 1649  ls
+ 1650  cabal build tree-sitter-python
+ 1651  find . -name "*.cabal"
+ 1652  cd tree-sitter-python
+ 1653  grep -R Configuring *
+ 1654  grep -R -i Configuring *
+ 1655  grep -R -i Configur *
+ 1656  cd ..
+ 1657  ls
+ 1658  grep -R -i Configur *
+ 1659  ls
+ 1660  cd tree-sitter
+ 1661  ls
+ 1662  ls -al
+ 1663  cd ..
+ 1664  find . -name "*.c
+ 1665  "
+ 1666  cabal v2-build all
+ 1667  cabal update
+ 1668  cabal build all
+ 1669  find . -name "*vendor*"
+ 1670  cd tree-sitter
+ 1671  ls
+ 1672  cd vendor
+ 1673  ls
+ 1674  cd tree-sitter/
+ 1675  [5 of 6] Compiling TreeSitter.Tree  ( src/TreeSitter/Tree.hs, /home/khchoi/work/lang/haskell/haskell-tree-sitter/dist-newstyle/build/x86_64-linux/ghc-9.2.5/tree-sitter-0.9.0.3/build/TreeSitter/Tree.o, /home/khchoi/work/lang/haskell/haskell-tree-sitter/dist-newstyle/build/x86_64-linux/ghc-9.2.5/tree-sitter-0.9.0.3/build/TreeSitter/Tree.dyn_o ) [TreeSitter.Node changed]
+ 1676  ls
+ 1677  ls -l
+ 1678  cd ..
+ 1679  git clone https://github.com/tree-sitter
+ 1680  git clone https://github.com/tree-sitter/tree-sitter
+ 1681  cd ../..
+ 1682  ls
+ 1683  cabal build all
+ 1684  cabal run
+ 1685  cd tree-sitter/vendor/tree-sitter/
+ 1686  ls -al
+ 1687  rm -Rf *
+ 1688  cd ..
+ 1689  ls
+ 1690  cabal configure
+ 1691  cabal build all
+ 1692  cd ..
+ 1693  ls
+ 1694  rm -Rf haskell-tree-sitter
+ 1695  git clone https://github.com/tree-sitter/haskell-tree-sitter
+ 1696  cd haskell-tree-sitter/
+ 1697  cabal configure
+ 1698  cabal configure -v
+ 1699  cabal build all
+ 1700  cabal build
+ 1701  cd tree-sitter
+ 1702  cd vendor
+ 1703  ls
+ 1704  ls -al tree-sitter/
+ 1705  git clone https://github.com/tree-sitter/tree-sitter
+ 1706  cd ../..
+ 1707  cabal build tree-sitter-haskell
+ 1708  cabal build tree-sitter-python
+ 1709  ls vendor/
+ 1710  find . -name vendor
+ 1711  cd tree-sitter-python
+ 1712  ls
+ 1713  cd vendor
+ 1714  ls -al
+ 1715  cd tree-sitter-python/
+ 1716  ls -al
+ 1717  cd ../../..
+ 1718  find . -name parser.c
+ 1719  cd tree-sitter-python/vendor/tree-sitter-python/
+ 1720  ls
+ 1721  ls -al
+ 1722  cp -R ~/work/lang/haskell/haskell-tree-sitter/tree-sitter/vendor/tree-sitter/lib/src .
+ 1723  cd ../../..
+ 1724  ls
+ 1725  cabal build tree-sitter-python
+ 1726  pwd
+ 1727  find . -name scanner.c
+ 1728  git status
+ 1729  pwd
+ 1730  ls -al
+ 1731  cd ..
+ 1732  ls
+ 1733  cd ../tree-sitter/
+ 1734  ls
+ 1735  cd tree-sitter
+ 1736  ls -al
+ 1737  git fetch
+ 1738  git status
+ 1739  git rebase origin/master
+ 1740  git log | cat - 
+ 1741  pwd
+ 1742  ls -l
+ 1743  lsb_release -a
+ 1744  ls -al
+ 1745  pwd
+ 1746  ls -al
+ 1747  cd ..
+ 1748  ls -al
+ 1749  cd tree-sitter
+ 1750  ls -al
+ 1751  git log 
+ 1752  tree-sitter
+ 1753  ls -al
+ 1754  tree-sitter-cli
+ 1755  find . -name "*tree-sitter-cli*"
+ 1756  which npm
+ 1757  cd ..
+ 1758  ls
+ 1759  cd ..
+ 1760  ls
+ 1761  cd tree-sitter/tree-sitter
+ 1762  ls 
+ 1763  ls *.txt
+ 1764  cd ..
+ 1765  git clone https://github.com/tree-sitter/tree-sitter-python
+ 1766  cd tree-sitter-python/
+ 1767  ls -l
+ 1768  cd src
+ 1769  ls
+ 1770  ls -al
+ 1771  cd ..
+ 1772  pwdf
+ 1773  pwd
+ 1774  make
+ 1775  ls src/*.o
+ 1776  ls *.a
+ 1777  ls *.so
+ 1778  make install
+ 1779  ls -al ../ts_python/
+ 1780  ls -alR ../ts_python/include
+ 1781  ls -alR ../ts_python/lib
+ 1782  tree-sitter parse
+ 1783  tree-sitter-cli
+ 1784  pwd
+ 1785  ls -al
+ 1786  cd ../tree-sitter
+ 1787  ls
+ 1788  cd ..
+ 1789  ls
+ 1790  cd ts_python/
+ 1791  ls
+ 1792  clang
+ 1793  s
+ 1794  ls
+ 1795  ls -al
+ 1796  ls lib
+ 1797  clang -I ./include main.c -o test-python-parser
+ 1798  clang -I ./include main.c -l ./lib/libtree-sitter-python -o test-python-parser
+ 1799  ls ./include
+ 1800  ls ./include/tree_sitter/
+ 1801  cd ..
+ 1802  find . -name "tree-sitter.a"
+ 1803  cd tree-sitter
+ 1804  ls
+ 1805  make
+ 1806  find . -name "tree-sitter.a"
+ 1807  find . -name "*tree-sitter.a"
+ 1808  ls include
+ 1809  find . -name include
+ 1810  ls ..
+ 1811  pushd ../ts_python/
+ 1812  clang -I ../tree-sitter/lib/include main.c -l ./lib/libtree-sitter-python.a -l ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1813  clang -I ../tree-sitter/lib/include main.c -l./lib/libtree-sitter-python.a -l../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1814  ls ./lib/libtree-sitter-python.a
+ 1815  clang -I ../tree-sitter/lib/include main.c -L ./lib -ltree-sitter-python.a -L ../tree-sitter -ltree-sitter.a -o test-python-parser
+ 1816  ls ./lib/*.a
+ 1817  clang -I ../tree-sitter/lib/include main.c -L ./lib -llibtree-sitter-python.a -L ../tree-sitter -llibtree-sitter.a -o test-python-parser
+ 1818  clang -I ../tree-sitter/lib/include main.c -L ./lib -ltree-sitter-python -L ../tree-sitter -ltree-sitter -o test-python-parser
+ 1819  ./test-python-parser 
+ 1820  ./test-python-parser  -L ./lib
+ 1821  export LD_LIBRARY_PATH=./lib:../tree-sitter
+ 1822  ./test-python-parser 
+ 1823  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1824  ./test-python-parser 
+ 1825  ls -al /usr/local/nProtect/
+ 1826  sudo rm -rf /usr/local/nProtect
+ 1827  ls -al
+ 1828  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1829  find . -name "parser.h"
+ 1830  find ../tree-sitter -name "parser.h"
+ 1831  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1832  ./test-python-parser 
+ 1833  ls -al
+ 1834  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1835  ./test-python-parser 
+ 1836  ls -al
+ 1837  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1838  ./test-python-parser 
+ 1839  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1840  pushd ../tree-sitter
+ 1841  make
+ 1842  popd
+ 1843  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1844  ls
+ 1845  ./test-python-parser
+ 1846  ls -al
+ 1847  strace ./test-python-parser
+ 1848  ls
+ 1849  cd ..
+ 1850  ls
+ 1851  cd ts_python/
+ 1852  ls -al
+ 1853  find "*.c"
+ 1854  find . -name "*.c"
+ 1855  pushd ../tree-sitter
+ 1856  make
+ 1857  popd
+ 1858  make
+ 1859  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1860  ./test-python-parser
+ 1861  strace ./test-python-parser
+ 1862  ls *.dot
+ 1863  mv ../tree-sitter/*.dot .
+ 1864  ls *.dot
+ 1865  ./test-python-parser
+ 1866  strace ./test-python-parser
+ 1867  pushd ../tree-sitter
+ 1868  make
+ 1869  popd
+ 1870  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1871  ./test-python-parser
+ 1872  strace ./test-python-parser
+ 1873  ls -al *.dot
+ 1874  date
+ 1875  pushd ../tree-sitter
+ 1876  make
+ 1877  popd
+ 1878  clang -I ../tree-sitter/lib/include main.c ./lib/libtree-sitter-python.a ../tree-sitter/libtree-sitter.a -o test-python-parser
+ 1879  ./test-python-parser
+ 1880  strace ./test-python-parser
+ 1881  pwd
+ 1882  ls -l
+ 1883  cd ../tree-sitter
+ 1884  ls -al
+ 1885  cargo
+ 1886  sudo ap install cargo
+ 1887  sudo apt install cargo
+ 1888  cargo 
+ 1889  ls -l
+ 1890  find . -name "*.toml"
+ 1891  cargo build --release
+ 1892  cargo update wasmparser@0.215.0 --precise 1.76.0
+ 1893  cargo update wasmparser --precise 1.76.0
+ 1894  cargo build --release
+ 1895  cargo build
+ 1896  cargo update wasmparser@0.215.0 --precise 1.75.0
+ 1897  cargo update rustc --precise 1.76.0
+ 1898  rustup
+ 1899  sudo snap install rustup
+ 1900  cargo build --release
+ 1901  find . -name "*.toml"
+ 1902  find . -name "*.toml" | xargs grep wasm
+ 1903  cargo build --release
+ 1904  cargo clean
+ 1905  cargo build --release
+ 1906  grep wasm crates.io 
+ 1907  grep wasm lib/crates.io 
+ 1908  find . -name "*.io"
+ 1909  cargo build --release
+ 1910  find . -name "*.io"
+ 1911  find . -name "*.toml" | xargs grep wasm
+ 1912  cargo build --release
+ 1913  pushd cli/src/
+ 1914  mv wasm.rs wasm_rs_removed
+ 1915  cd ..
+ 1916  cargo build --release
+ 1917  git status
+ 1918  cd ..
+ 1919  git status
+ 1920  git checkou Cargo.toml
+ 1921  git checkout Cargo.toml
+ 1922  git checkout cli/Cargo.toml
+ 1923  git checkout cli/loader/Cargo.toml
+ 1924  git checkout cli/src/wasm.rs
+ 1925  git checkout lib/Cargo.toml
+ 1926  git checkout lib/src/parser.c
+ 1927  git status
+ 1928  cargo clean
+ 1929  ./script/build-wasm
+ 1930  sudo apt install emcc
+ 1931  sudo ./script/build-wasm
+ 1932  cargo build --release
+ 1933  cargo update wasmparser@0.215.0
+ 1934  cargo build --release
+ 1935  cargo update wasmparser@0.215.0 --precise v0.217.0
+ 1936  cargo update wasmparser@0.215.0 --precise 0.217.0
+ 1937  cargo build --release
+ 1938  sudo apt install rustup
+ 1939  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 1940  ls -al /use/bin/*rust*
+ 1941  ls -al /usr/bin/*rust*
+ 1942  apt list --installed
+ 1943  sudo apt uninstall rustc
+ 1944  sudo apt remove rustc
+ 1945  rustc
+ 1946  sudo apt install rustup
+ 1947  ~/.cargo/env
+ 1948  source ~/.cargo/env
+ 1949  which rustc
+ 1950  which cargo
+ 1951  rustc --version
+ 1952  cargo build --release
+ 1953  history
+ 1954  ls -al
+ 1955  ls -al target/release/
+ 1956  ./target/release/tree-sitter 
+ 1957  pwd
+ 1958  ls ./target/release/examples/
+ 1959  cp ../tree-sitter-python/grammar.js ./target/release/examples/
+ 1960  pushd ./target/release/examples/
+ 1961  ls -al
+ 1962  ../tree-sitter generate grammar.js 
+ 1963  cd ..
+ 1964  tree-sitter ./examples/grammar.js 
+ 1965  ls
+ 1966  ./tree-sitter ./examples/grammar.js 
+ 1967  ./tree-sitter generate ./examples/grammar.js 
+ 1968  pushd ../../../tree-sitter-python/
+ 1969  ls -al
+ 1970  git status
+ 1971  git diff Makefile
+ 1972  ../tree-sitter/target/release/tree-sitter
+ 1973  ../tree-sitter/target/release/tree-sitter generate grammar.js 
+ 1974  ../tree-sitter/target/release/tree-sitter dump-languages
+ 1975  ../tree-sitter/target/release/tree-sitter generate grammar.js 
+ 1976  npm --version
+ 1977  npm upgrade
+ 1978  cd ..
+ 1979  npm upgrade
+ 1980  npm --version
+ 1981  npm upgrade npm
+ 1982  which npm
+ 1983  npm install -g npm@latest
+ 1984  ls -al /usr/bin/npm
+ 1985  apt list --installed
+ 1986  sudo remove npm
+ 1987  sudo apt remove npm
+ 1988  npm
+ 1989  sudo apt install npm
+ 1990  npm --version
+ 1991  sudo apt remove npm
+ 1992  npm
+ 1993  sudo apt remove npm
+ 1994  sudo apt install npm
+ 1995  npm install -g npm
+ 1996  sudo apt remove npm
+ 1997  which npm
+ 1998  n[m
+ 1999  npm
+ 2000  exit
+ 2001  which npm
+ 2002  ls -al
+ 2003  cd tree-sitter/target/release/
+ 2004  tree-sitter
+ 2005  ./tree-sitter
+ 2006  ./tree-sitter generate examples/grammar.js 
+ 2007  ls -al
+ 2008  ls -al src
+ 2009  ./tree-sitter
+ 2010  ./tree-sitter compile examples/grammar.js 
+ 2011  ./tree-sitter dump-languages
+ 2012  ./tree-sitter compile 
+ 2013  ./tree-sitter complete
+ 2014  ./tree-sitter build examples/grammar.js 
+ 2015  ls src/*.json
+ 2016  ./tree-sitter build ./src/grammar.json 
+ 2017  ./tree-sitter build .
+ 2018  pushd ../../../tree-sitter-python/
+ 2019  ../tree-sitter/target/release/tree-sitter build .
+ 2020  find . -name "*.py"
+ 2021  ../tree-sitter/target/release/tree-sitter parse ./examples/setup.py
+ 2022  ../tree-sitter/target/release/tree-sitter parse ./setup.py 
+ 2023  ../tree-sitter/target/release/tree-sitter dump-languages
+ 2024  ../tree-sitter/target/release/tree-sitter debug
+ 2025  ../tree-sitter/target/release/tree-sitter --help
+ 2026  ../tree-sitter/target/release/tree-sitter playground
+ 2027  ../tree-sitter/target/release/tree-sitter build --wasm
+ 2028  export  emcc="$docker run                       \
+    --rm                                  \
+    -v $PWD:/src:Z                        \
+    -u $UID                               \
+    emscripten/emsdk:$EMSCRIPTEN_VERSION  \
+    emcc"
+ 2029  echo $emcc
+ 2030  ../tree-sitter/target/release/tree-sitter build --wasm
+ 2031  which docker
+ 2032  export  emcc="/snap/bin/docker run                       \
+    --rm                                  \
+    -v $PWD:/src:Z                        \
+    -u $UID                               \
+    emscripten/emsdk:$EMSCRIPTEN_VERSION  \
+    emcc"
+ 2033  ../tree-sitter/target/release/tree-sitter build --wasm
+ 2034  which docker
+ 2035  cd ../tree-sitter
+ 2036  ls -al
+ 2037  cargo build --debug
+ 2038  cargo clean
+ 2039  cargo build
+ 2040  pwd
+ 2041  ls ./target/
+ 2042  ls ./target/debug
+ 2043  ./target/debug/tree-sitter --help
+ 2044  ./target/debug/tree-sitter build --help
+ 2045  ./target/debug/tree-sitter generate --help
+ 2046  ./target/debug/tree-sitter parse --help
+ 2047  pushd ../tree-sitter-python/
+ 2048  ls
+ 2049  ../tree-sitter/target/debug/tree-sitter build --debug grammar.js 
+ 2050  ../tree-sitter/target/debug/tree-sitter build --debug . 
+ 2051  ls -al src
+ 2052  ls 
+ 2053  find . -name "*.h"
+ 2054  ls -al ./src/tree_sitter/
+ 2055  ../tree-sitter/target/debug/tree-sitter generate --debug-build
+ 2056  ls -al src
+ 2057  git status
+ 2058  ls -al src/node-types.json
+ 2059  ../tree-sitter/target/debug/tree-sitter generate --debug-build ./grammar.js 
+ 2060  ls -al src
+ 2061  git status
+ 2062  ls -al src/node-types.json 
+ 2063  ../tree-sitter/target/debug/tree-sitter build --debug
+ 2064  git status
+ 2065  ls -al src
+ 2066  ../tree-sitter/target/debug/tree-sitter parse --debug setup.py 
+ 2067  ls src
+ 2068  history
+ 2069  git status
+ 2070  ls -al /src/node-types.json
+ 2071  ls -al ./src/node-types.json
+ 2072  history > memo-tree-sitter-commands.txt

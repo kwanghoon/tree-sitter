@@ -1,0 +1,4890 @@
+process version:0, version_count:1, state:1, row:0, col:0
+lex_external state:2, row:0, column:0
+  consume character:'f'
+  consume character:'r'
+lex_internal state:52, row:0, column:0
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+lexed_lookahead sym:from, size:4
+shift state:1873
+process version:0, version_count:1, state:1873, row:0, col:4
+lex_external state:15, row:0, column:4
+  skip character:' '
+lex_internal state:7, row:0, column:4
+  skip character:' '
+  consume character:'o'
+  consume character:'s'
+  consume character:'o'
+lexed_lookahead sym:identifier, size:3
+shift state:1747
+process version:0, version_count:1, state:1747, row:0, col:7
+lex_external state:15, row:0, column:7
+lex_internal state:8, row:0, column:7
+  consume character:'.'
+lexed_lookahead sym:., size:1
+shift state:2781
+process version:0, version_count:1, state:2781, row:0, col:8
+lex_external state:15, row:0, column:8
+lex_internal state:52, row:0, column:8
+  consume character:'p'
+  consume character:'a'
+  consume character:'t'
+  consume character:'h'
+  consume character:'p'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1819
+process version:0, version_count:1, state:1819, row:0, col:12
+lex_external state:15, row:0, column:12
+  skip character:' '
+lex_internal state:8, row:0, column:12
+  skip character:' '
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+lexed_lookahead sym:import, size:7
+reduce sym:dotted_name_repeat1, child_count:2
+reduce sym:dotted_name, child_count:2
+shift state:1881
+process version:0, version_count:1, state:1881, row:0, col:19
+lex_external state:15, row:0, column:19
+  skip character:' '
+lex_internal state:52, row:0, column:19
+  skip character:' '
+  consume character:'i'
+  consume character:'s'
+  consume character:'d'
+  consume character:'i'
+  consume character:'r'
+  consume character:'i'
+  consume character:'s'
+lexed_lookahead sym:identifier, size:6
+shift state:1906
+process version:0, version_count:1, state:1906, row:0, col:25
+lex_external state:9, row:0, column:25
+lex_internal state:7, row:0, column:25
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dotted_name, child_count:1
+shift state:2005
+process version:0, version_count:1, state:2005, row:0, col:26
+lex_external state:9, row:0, column:26
+  skip character:' '
+lex_internal state:52, row:0, column:26
+  skip character:' '
+  consume character:'j'
+  consume character:'o'
+  consume character:'i'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:5
+shift state:1906
+process version:0, version_count:1, state:1906, row:0, col:31
+lex_external state:9, row:0, column:31
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list_repeat1, child_count:2
+reduce sym:_import_list, child_count:2
+reduce sym:import_from_statement, child_count:4
+shift state:683
+process version:0, version_count:1, state:683, row:0, col:31
+lex_external state:2, row:0, column:31
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+lex_internal state:52, row:0, column:31
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+lexed_lookahead sym:from, size:5
+reduce sym:_simple_statements, child_count:2
+shift state:1873
+process version:0, version_count:1, state:1873, row:1, col:4
+lex_external state:15, row:1, column:4
+  skip character:' '
+lex_internal state:7, row:1, column:4
+  skip character:' '
+  consume character:'p'
+  consume character:'l'
+  consume character:'a'
+  consume character:'t'
+  consume character:'f'
+  consume character:'o'
+  consume character:'r'
+  consume character:'m'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:9
+shift state:1747
+process version:0, version_count:1, state:1747, row:1, col:13
+lex_external state:15, row:1, column:13
+  skip character:' '
+lex_internal state:8, row:1, column:13
+  skip character:' '
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+lexed_lookahead sym:import, size:7
+reduce sym:dotted_name, child_count:1
+shift state:1881
+process version:0, version_count:1, state:1881, row:1, col:20
+lex_external state:15, row:1, column:20
+  skip character:' '
+lex_internal state:52, row:1, column:20
+  skip character:' '
+  consume character:'s'
+  consume character:'y'
+  consume character:'s'
+  consume character:'t'
+  consume character:'e'
+  consume character:'m'
+lexed_lookahead sym:identifier, size:7
+shift state:1906
+process version:0, version_count:1, state:1906, row:1, col:27
+lex_external state:9, row:1, column:27
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list, child_count:1
+reduce sym:import_from_statement, child_count:4
+shift state:683
+process version:0, version_count:1, state:683, row:1, col:27
+lex_external state:2, row:1, column:27
+  skip character:10
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+lex_internal state:52, row:1, column:27
+  skip character:10
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+lexed_lookahead sym:from, size:6
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:1873
+process version:0, version_count:1, state:1873, row:3, col:4
+lex_external state:15, row:3, column:4
+  skip character:' '
+lex_internal state:7, row:3, column:4
+  skip character:' '
+  consume character:'s'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'p'
+  consume character:'t'
+  consume character:'o'
+  consume character:'o'
+  consume character:'l'
+  consume character:'s'
+lexed_lookahead sym:identifier, size:11
+shift state:1747
+process version:0, version_count:1, state:1747, row:3, col:15
+lex_external state:15, row:3, column:15
+  skip character:' '
+lex_internal state:8, row:3, column:15
+  skip character:' '
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+lexed_lookahead sym:import, size:7
+reduce sym:dotted_name, child_count:1
+shift state:1881
+process version:0, version_count:1, state:1881, row:3, col:22
+lex_external state:15, row:3, column:22
+  skip character:' '
+lex_internal state:52, row:3, column:22
+  skip character:' '
+  consume character:'E'
+  consume character:'x'
+  consume character:'t'
+  consume character:'e'
+  consume character:'n'
+  consume character:'s'
+  consume character:'i'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:10
+shift state:1906
+process version:0, version_count:1, state:1906, row:3, col:32
+lex_external state:9, row:3, column:32
+lex_internal state:7, row:3, column:32
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dotted_name, child_count:1
+shift state:2005
+process version:0, version_count:1, state:2005, row:3, col:33
+lex_external state:9, row:3, column:33
+  skip character:' '
+lex_internal state:52, row:3, column:33
+  skip character:' '
+  consume character:'f'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'_'
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'s'
+  consume character:'f'
+  consume character:'i'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:14
+shift state:1906
+process version:0, version_count:1, state:1906, row:3, col:47
+lex_external state:9, row:3, column:47
+lex_internal state:7, row:3, column:47
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list_repeat1, child_count:2
+shift state:2056
+process version:0, version_count:1, state:2056, row:3, col:48
+lex_external state:9, row:3, column:48
+  skip character:' '
+lex_internal state:52, row:3, column:48
+  skip character:' '
+  consume character:'s'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:6
+shift state:1906
+process version:0, version_count:1, state:1906, row:3, col:54
+lex_external state:9, row:3, column:54
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list_repeat1, child_count:2
+reduce sym:_import_list_repeat1, child_count:2
+reduce sym:_import_list, child_count:2
+reduce sym:import_from_statement, child_count:4
+shift state:683
+process version:0, version_count:1, state:683, row:3, col:54
+lex_external state:2, row:3, column:54
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+lex_internal state:52, row:3, column:54
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+lexed_lookahead sym:from, size:5
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:1873
+process version:0, version_count:1, state:1873, row:4, col:4
+lex_external state:15, row:4, column:4
+  skip character:' '
+lex_internal state:7, row:4, column:4
+  skip character:' '
+  consume character:'s'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'p'
+  consume character:'t'
+  consume character:'o'
+  consume character:'o'
+  consume character:'l'
+  consume character:'s'
+lexed_lookahead sym:identifier, size:11
+shift state:1747
+process version:0, version_count:1, state:1747, row:4, col:15
+lex_external state:15, row:4, column:15
+lex_internal state:8, row:4, column:15
+  consume character:'.'
+lexed_lookahead sym:., size:1
+shift state:2781
+process version:0, version_count:1, state:2781, row:4, col:16
+lex_external state:15, row:4, column:16
+lex_internal state:52, row:4, column:16
+  consume character:'c'
+  consume character:'o'
+  consume character:'m'
+  consume character:'m'
+  consume character:'a'
+  consume character:'n'
+  consume character:'d'
+  consume character:'c'
+  consume character:'o'
+lexed_lookahead sym:identifier, size:7
+shift state:1819
+process version:0, version_count:1, state:1819, row:4, col:23
+lex_external state:15, row:4, column:23
+lex_internal state:8, row:4, column:23
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:dotted_name_repeat1, child_count:2
+shift state:2781
+process version:0, version_count:1, state:2781, row:4, col:24
+lex_external state:15, row:4, column:24
+lex_internal state:52, row:4, column:24
+  consume character:'b'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:5
+shift state:1819
+process version:0, version_count:1, state:1819, row:4, col:29
+lex_external state:15, row:4, column:29
+  skip character:' '
+lex_internal state:8, row:4, column:29
+  skip character:' '
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+lexed_lookahead sym:import, size:7
+reduce sym:dotted_name_repeat1, child_count:2
+reduce sym:dotted_name_repeat1, child_count:2
+reduce sym:dotted_name, child_count:2
+shift state:1881
+process version:0, version_count:1, state:1881, row:4, col:36
+lex_external state:15, row:4, column:36
+  skip character:' '
+lex_internal state:52, row:4, column:36
+  skip character:' '
+  consume character:'b'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:6
+shift state:1906
+process version:0, version_count:1, state:1906, row:4, col:42
+lex_external state:9, row:4, column:42
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list, child_count:1
+reduce sym:import_from_statement, child_count:4
+shift state:683
+process version:0, version_count:1, state:683, row:4, col:42
+lex_external state:2, row:4, column:42
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+lex_internal state:52, row:4, column:42
+  skip character:10
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+  consume character:'f'
+  consume character:'r'
+  consume character:'o'
+  consume character:'m'
+lexed_lookahead sym:from, size:5
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:1873
+process version:0, version_count:1, state:1873, row:5, col:4
+lex_external state:15, row:5, column:4
+  skip character:' '
+lex_internal state:7, row:5, column:4
+  skip character:' '
+  consume character:'w'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+  consume character:'w'
+  consume character:'h'
+lexed_lookahead sym:identifier, size:6
+shift state:1747
+process version:0, version_count:1, state:1747, row:5, col:10
+lex_external state:15, row:5, column:10
+lex_internal state:8, row:5, column:10
+  consume character:'.'
+lexed_lookahead sym:., size:1
+shift state:2781
+process version:0, version_count:1, state:2781, row:5, col:11
+lex_external state:15, row:5, column:11
+lex_internal state:52, row:5, column:11
+  consume character:'b'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'_'
+  consume character:'w'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:11
+shift state:1819
+process version:0, version_count:1, state:1819, row:5, col:22
+lex_external state:15, row:5, column:22
+  skip character:' '
+lex_internal state:8, row:5, column:22
+  skip character:' '
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+  consume character:'i'
+  consume character:'m'
+  consume character:'p'
+  consume character:'o'
+  consume character:'r'
+  consume character:'t'
+lexed_lookahead sym:import, size:7
+reduce sym:dotted_name_repeat1, child_count:2
+reduce sym:dotted_name, child_count:2
+shift state:1881
+process version:0, version_count:1, state:1881, row:5, col:29
+lex_external state:15, row:5, column:29
+  skip character:' '
+lex_internal state:52, row:5, column:29
+  skip character:' '
+  consume character:'b'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'_'
+  consume character:'w'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:12
+shift state:1906
+process version:0, version_count:1, state:1906, row:5, col:41
+lex_external state:9, row:5, column:41
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:dotted_name, child_count:1
+reduce sym:_import_list, child_count:1
+reduce sym:import_from_statement, child_count:4
+shift state:683
+process version:0, version_count:1, state:683, row:5, col:41
+lex_external state:2, row:5, column:41
+  skip character:10
+  skip character:10
+  skip character:10
+lex_internal state:52, row:5, column:41
+  skip character:10
+  skip character:10
+  skip character:10
+  consume character:'c'
+  consume character:'l'
+  consume character:'a'
+  consume character:'s'
+  consume character:'s'
+  consume character:'c'
+  consume character:'l'
+  consume character:'a'
+  consume character:'s'
+  consume character:'s'
+lexed_lookahead sym:class, size:8
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:2761
+process version:0, version_count:1, state:2761, row:8, col:5
+lex_external state:15, row:8, column:5
+  skip character:' '
+lex_internal state:52, row:8, column:5
+  skip character:' '
+  consume character:'B'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+lexed_lookahead sym:identifier, size:6
+shift state:2019
+process version:0, version_count:1, state:2019, row:8, col:11
+lex_external state:15, row:8, column:11
+lex_internal state:52, row:8, column:11
+  consume character:'('
+lexed_lookahead sym:(, size:1
+shift state:234
+process version:0, version_count:1, state:234, row:8, col:12
+lex_external state:7, row:8, column:12
+  consume character:'b'
+  consume character:'u'
+lex_internal state:5, row:8, column:12
+  consume character:'b'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:5
+shift state:1401
+process version:0, version_count:1, state:1401, row:8, col:17
+lex_external state:13, row:8, column:17
+lex_internal state:14, row:8, column:17
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:1294
+process version:0, version_count:1, state:1294, row:8, col:18
+lex_external state:15, row:8, column:18
+lex_internal state:13, row:8, column:18
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:argument_list, child_count:3
+shift state:108
+process version:0, version_count:1, state:108, row:8, col:19
+lex_external state:5, row:8, column:19
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:9
+process version:0, version_count:1, state:9, row:8, col:19
+lex_external state:3, row:8, column:19
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:8, column:19
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+lexed_lookahead sym:def, size:8
+shift state:2783
+process version:0, version_count:1, state:2783, row:9, col:7
+lex_external state:15, row:9, column:7
+  skip character:' '
+lex_internal state:52, row:9, column:7
+  skip character:' '
+  consume character:'r'
+  consume character:'u'
+  consume character:'n'
+  consume character:'r'
+lexed_lookahead sym:identifier, size:4
+shift state:2233
+process version:0, version_count:1, state:2233, row:9, col:11
+lex_external state:15, row:9, column:11
+lex_internal state:52, row:9, column:11
+  consume character:'('
+lexed_lookahead sym:(, size:1
+shift state:1647
+process version:0, version_count:1, state:1647, row:9, col:12
+lex_external state:13, row:9, column:12
+lex_internal state:5, row:9, column:12
+  consume character:'s'
+  consume character:'e'
+  consume character:'l'
+  consume character:'f'
+lexed_lookahead sym:identifier, size:4
+shift state:2114
+process version:0, version_count:1, state:2114, row:9, col:16
+lex_external state:13, row:9, column:16
+lex_internal state:52, row:9, column:16
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:parameter, child_count:1
+reduce sym:_parameters, child_count:1
+shift state:2545
+process version:0, version_count:1, state:2545, row:9, col:17
+lex_external state:15, row:9, column:17
+lex_internal state:9, row:9, column:17
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:parameters, child_count:3
+shift state:130
+process version:0, version_count:1, state:130, row:9, col:18
+lex_external state:5, row:9, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:39
+process version:0, version_count:1, state:39, row:9, col:18
+lex_external state:3, row:9, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:9, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'i'
+  consume character:'f'
+  consume character:'i'
+  consume character:'f'
+lexed_lookahead sym:if, size:11
+shift state:603
+process version:0, version_count:1, state:603, row:10, col:10
+lex_external state:2, row:10, column:10
+  skip character:' '
+lex_internal state:52, row:10, column:10
+  skip character:' '
+  consume character:'i'
+  consume character:'s'
+  consume character:'d'
+  consume character:'i'
+  consume character:'r'
+  consume character:'i'
+  consume character:'s'
+lexed_lookahead sym:identifier, size:6
+shift state:1243
+process version:0, version_count:1, state:1243, row:10, col:16
+lex_external state:15, row:10, column:16
+lex_internal state:14, row:10, column:16
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:248
+process version:0, version_count:1, state:248, row:10, col:17
+lex_external state:7, row:10, column:17
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:10, col:18
+lex_external state:16, row:10, column:18
+  consume character:'q'
+  consume character:'u'
+  consume character:'e'
+  consume character:'r'
+  consume character:'i'
+  consume character:'e'
+  consume character:'s'
+lexed_lookahead sym:_string_content, size:7
+shift state:1812
+process version:0, version_count:1, state:1812, row:10, col:25
+lex_external state:16, row:10, column:25
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:10, col:26
+lex_external state:7, row:10, column:26
+lex_internal state:13, row:10, column:26
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:1294
+process version:0, version_count:1, state:1294, row:10, col:27
+lex_external state:15, row:10, column:27
+lex_internal state:13, row:10, column:27
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:argument_list, child_count:3
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:113
+process version:0, version_count:1, state:113, row:10, col:28
+lex_external state:5, row:10, column:28
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:34
+process version:0, version_count:1, state:34, row:10, col:28
+lex_external state:3, row:10, column:28
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:10, column:28
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'d'
+  consume character:'e'
+  consume character:'s'
+  consume character:'t'
+  consume character:'d'
+  consume character:'e'
+lexed_lookahead sym:identifier, size:17
+shift state:626
+process version:0, version_count:1, state:626, row:11, col:16
+lex_external state:9, row:11, column:16
+  skip character:' '
+lex_internal state:7, row:11, column:16
+  skip character:' '
+  consume character:'='
+lexed_lookahead sym:=, size:2
+reduce sym:pattern, child_count:1
+shift state:194
+process version:0, version_count:1, state:194, row:11, col:18
+lex_external state:2, row:11, column:18
+  skip character:' '
+lex_internal state:52, row:11, column:18
+  skip character:' '
+  consume character:'j'
+  consume character:'o'
+  consume character:'i'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:5
+shift state:626
+process version:0, version_count:1, state:626, row:11, col:23
+lex_external state:9, row:11, column:23
+lex_internal state:7, row:11, column:23
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:11, col:24
+lex_external state:7, row:11, column:24
+lex_internal state:5, row:11, column:24
+  consume character:'s'
+  consume character:'e'
+  consume character:'l'
+  consume character:'f'
+lexed_lookahead sym:identifier, size:4
+shift state:1116
+process version:0, version_count:1, state:1116, row:11, col:28
+lex_external state:13, row:11, column:28
+lex_internal state:14, row:11, column:28
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:primary_expression, child_count:1
+shift state:2764
+process version:0, version_count:1, state:2764, row:11, col:29
+lex_external state:15, row:11, column:29
+lex_internal state:52, row:11, column:29
+  consume character:'b'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+  consume character:'_'
+  consume character:'l'
+  consume character:'i'
+  consume character:'b'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:9
+shift state:1251
+process version:0, version_count:1, state:1251, row:11, col:38
+lex_external state:13, row:11, column:38
+lex_internal state:13, row:11, column:38
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:attribute, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:272
+process version:0, version_count:1, state:272, row:11, col:39
+lex_external state:7, row:11, column:39
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1699
+process version:0, version_count:1, state:1699, row:11, col:41
+lex_external state:16, row:11, column:41
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'_'
+  consume character:'s'
+  consume character:'i'
+  consume character:'t'
+  consume character:'t'
+  consume character:'e'
+  consume character:'r'
+  consume character:'_'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:18
+shift state:1812
+process version:0, version_count:1, state:1812, row:11, col:59
+lex_external state:16, row:11, column:59
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1220
+process version:0, version_count:1, state:1220, row:11, col:60
+lex_external state:7, row:11, column:60
+lex_internal state:13, row:11, column:60
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:11, col:61
+lex_external state:7, row:11, column:61
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1699
+process version:0, version_count:1, state:1699, row:11, col:63
+lex_external state:16, row:11, column:63
+  consume character:'q'
+  consume character:'u'
+  consume character:'e'
+  consume character:'r'
+  consume character:'i'
+  consume character:'e'
+  consume character:'s'
+lexed_lookahead sym:_string_content, size:7
+shift state:1812
+process version:0, version_count:1, state:1812, row:11, col:70
+lex_external state:16, row:11, column:70
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1220
+process version:0, version_count:1, state:1220, row:11, col:71
+lex_external state:7, row:11, column:71
+lex_internal state:13, row:11, column:71
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:1077
+process version:0, version_count:1, state:1077, row:11, col:72
+lex_external state:9, row:11, column:72
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_newline, size:0
+reduce sym:argument_list, child_count:4
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_right_hand_side, child_count:1
+reduce sym:assignment, child_count:3
+reduce sym:expression_statement, child_count:1
+shift state:689
+process version:0, version_count:1, state:689, row:11, col:72
+lex_external state:3, row:11, column:72
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:11, column:72
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'s'
+  consume character:'e'
+  consume character:'l'
+  consume character:'f'
+lexed_lookahead sym:identifier, size:17
+reduce sym:_simple_statements, child_count:2
+shift state:626
+process version:0, version_count:1, state:626, row:12, col:16
+lex_external state:9, row:12, column:16
+lex_internal state:7, row:12, column:16
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:primary_expression, child_count:1
+shift state:2755
+process version:0, version_count:1, state:2755, row:12, col:17
+lex_external state:15, row:12, column:17
+lex_internal state:52, row:12, column:17
+  consume character:'c'
+  consume character:'o'
+  consume character:'p'
+  consume character:'y'
+  consume character:'_'
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'c'
+  consume character:'o'
+lexed_lookahead sym:identifier, size:9
+shift state:627
+process version:0, version_count:1, state:627, row:12, col:26
+lex_external state:9, row:12, column:26
+lex_internal state:8, row:12, column:26
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:attribute, child_count:3
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:12, col:27
+lex_external state:7, row:12, column:27
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:12, col:28
+lex_external state:16, row:12, column:28
+  consume character:'q'
+  consume character:'u'
+  consume character:'e'
+  consume character:'r'
+  consume character:'i'
+  consume character:'e'
+  consume character:'s'
+lexed_lookahead sym:_string_content, size:7
+shift state:1812
+process version:0, version_count:1, state:1812, row:12, col:35
+lex_external state:16, row:12, column:35
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:12, col:36
+lex_external state:7, row:12, column:36
+lex_internal state:13, row:12, column:36
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:272
+process version:0, version_count:1, state:272, row:12, col:37
+lex_external state:7, row:12, column:37
+  skip character:' '
+lex_internal state:5, row:12, column:37
+  skip character:' '
+  consume character:'d'
+  consume character:'e'
+  consume character:'s'
+  consume character:'t'
+  consume character:'d'
+  consume character:'e'
+lexed_lookahead sym:identifier, size:5
+shift state:1401
+process version:0, version_count:1, state:1401, row:12, col:42
+lex_external state:13, row:12, column:42
+lex_internal state:14, row:12, column:42
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:argument_list_repeat1, child_count:2
+shift state:1077
+process version:0, version_count:1, state:1077, row:12, col:43
+lex_external state:9, row:12, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_newline, size:0
+reduce sym:argument_list, child_count:4
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:expression_statement, child_count:1
+shift state:689
+process version:0, version_count:1, state:689, row:12, col:43
+lex_external state:3, row:12, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_dedent, size:0
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:695
+process version:0, version_count:1, state:695, row:12, col:43
+lex_external state:3, row:12, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:12, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'s'
+  consume character:'u'
+  consume character:'p'
+  consume character:'e'
+  consume character:'r'
+lexed_lookahead sym:identifier, size:14
+reduce sym:block, child_count:2
+reduce sym:if_statement, child_count:5
+shift state:626
+process version:0, version_count:1, state:626, row:13, col:13
+lex_external state:9, row:13, column:13
+lex_internal state:7, row:13, column:13
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:13, col:14
+lex_external state:7, row:13, column:14
+lex_internal state:5, row:13, column:14
+  consume character:')'
+lexed_lookahead sym:), size:1
+shift state:1113
+process version:0, version_count:1, state:1113, row:13, col:15
+lex_external state:9, row:13, column:15
+lex_internal state:13, row:13, column:15
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:argument_list, child_count:2
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+shift state:2755
+process version:0, version_count:1, state:2755, row:13, col:16
+lex_external state:15, row:13, column:16
+lex_internal state:52, row:13, column:16
+  consume character:'r'
+  consume character:'u'
+  consume character:'n'
+  consume character:'r'
+lexed_lookahead sym:identifier, size:3
+shift state:627
+process version:0, version_count:1, state:627, row:13, col:19
+lex_external state:9, row:13, column:19
+lex_internal state:8, row:13, column:19
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:attribute, child_count:3
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:13, col:20
+lex_external state:7, row:13, column:20
+lex_internal state:5, row:13, column:20
+  consume character:')'
+lexed_lookahead sym:), size:1
+shift state:1113
+process version:0, version_count:1, state:1113, row:13, col:21
+lex_external state:9, row:13, column:21
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:argument_list, child_count:2
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:expression_statement, child_count:1
+shift state:689
+process version:0, version_count:1, state:689, row:13, col:21
+lex_external state:3, row:13, column:21
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_dedent, size:0
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:695
+process version:0, version_count:1, state:695, row:13, col:21
+lex_external state:3, row:13, column:21
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_dedent, size:0
+reduce sym:block, child_count:2
+reduce sym:function_definition, child_count:6
+shift state:697
+process version:0, version_count:1, state:697, row:13, col:21
+lex_external state:2, row:13, column:21
+  skip character:10
+  skip character:10
+  skip character:10
+lex_internal state:52, row:13, column:21
+  skip character:10
+  skip character:10
+  skip character:10
+  consume character:'c'
+  consume character:'l'
+  consume character:'a'
+  consume character:'s'
+  consume character:'s'
+  consume character:'c'
+  consume character:'l'
+  consume character:'a'
+  consume character:'s'
+  consume character:'s'
+lexed_lookahead sym:class, size:8
+reduce sym:block, child_count:2
+reduce sym:class_definition, child_count:6
+reduce sym:module_repeat1, child_count:2
+shift state:2761
+process version:0, version_count:1, state:2761, row:16, col:5
+lex_external state:15, row:16, column:5
+  skip character:' '
+lex_internal state:52, row:16, column:5
+  skip character:' '
+  consume character:'B'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'W'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+lexed_lookahead sym:identifier, size:11
+shift state:2019
+process version:0, version_count:1, state:2019, row:16, col:16
+lex_external state:15, row:16, column:16
+lex_internal state:52, row:16, column:16
+  consume character:'('
+lexed_lookahead sym:(, size:1
+shift state:234
+process version:0, version_count:1, state:234, row:16, col:17
+lex_external state:7, row:16, column:17
+  consume character:'b'
+lex_internal state:5, row:16, column:17
+  consume character:'b'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'_'
+  consume character:'w'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+  consume character:'b'
+lexed_lookahead sym:identifier, size:11
+shift state:1401
+process version:0, version_count:1, state:1401, row:16, col:28
+lex_external state:13, row:16, column:28
+lex_internal state:14, row:16, column:28
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:1294
+process version:0, version_count:1, state:1294, row:16, col:29
+lex_external state:15, row:16, column:29
+lex_internal state:13, row:16, column:29
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:argument_list, child_count:3
+shift state:108
+process version:0, version_count:1, state:108, row:16, col:30
+lex_external state:5, row:16, column:30
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:9
+process version:0, version_count:1, state:9, row:16, col:30
+lex_external state:3, row:16, column:30
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:16, column:30
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+lexed_lookahead sym:def, size:8
+shift state:2783
+process version:0, version_count:1, state:2783, row:17, col:7
+lex_external state:15, row:17, column:7
+  skip character:' '
+lex_internal state:52, row:17, column:7
+  skip character:' '
+  consume character:'g'
+  consume character:'e'
+  consume character:'t'
+  consume character:'_'
+  consume character:'t'
+  consume character:'a'
+  consume character:'g'
+  consume character:'g'
+lexed_lookahead sym:identifier, size:8
+shift state:2233
+process version:0, version_count:1, state:2233, row:17, col:15
+lex_external state:15, row:17, column:15
+lex_internal state:52, row:17, column:15
+  consume character:'('
+lexed_lookahead sym:(, size:1
+shift state:1647
+process version:0, version_count:1, state:1647, row:17, col:16
+lex_external state:13, row:17, column:16
+lex_internal state:5, row:17, column:16
+  consume character:'s'
+  consume character:'e'
+  consume character:'l'
+  consume character:'f'
+lexed_lookahead sym:identifier, size:4
+shift state:2114
+process version:0, version_count:1, state:2114, row:17, col:20
+lex_external state:13, row:17, column:20
+lex_internal state:52, row:17, column:20
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:parameter, child_count:1
+reduce sym:_parameters, child_count:1
+shift state:2545
+process version:0, version_count:1, state:2545, row:17, col:21
+lex_external state:15, row:17, column:21
+lex_internal state:9, row:17, column:21
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:parameters, child_count:3
+shift state:130
+process version:0, version_count:1, state:130, row:17, col:22
+lex_external state:5, row:17, column:22
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:39
+process version:0, version_count:1, state:39, row:17, col:22
+lex_external state:3, row:17, column:22
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:17, column:22
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:15
+shift state:626
+process version:0, version_count:1, state:626, row:18, col:14
+lex_external state:9, row:18, column:14
+lex_internal state:7, row:18, column:14
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:pattern, child_count:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:415
+process version:1, version_count:2, state:1634, row:18, col:14
+lex_external state:15, row:18, column:14
+lex_internal state:11, row:18, column:14
+  consume character:','
+lexed_lookahead sym:,, size:1
+shift state:253
+process version:0, version_count:2, state:415, row:18, col:15
+lex_external state:4, row:18, column:15
+  skip character:' '
+lex_internal state:52, row:18, column:15
+  skip character:' '
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1009
+process version:1, version_count:2, state:253, row:18, col:15
+lex_external state:2, row:18, column:15
+  skip character:' '
+lex_internal state:6, row:18, column:15
+  skip character:' '
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1482
+process version:0, version_count:2, state:1009, row:18, col:19
+lex_external state:9, row:18, column:19
+lex_internal state:14, row:18, column:19
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:assert_statement_repeat1, child_count:2
+shift state:414
+process version:1, version_count:2, state:1482, row:18, col:19
+lex_external state:15, row:18, column:19
+lex_internal state:8, row:18, column:19
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:pattern, child_count:1
+reduce sym:_patterns_repeat1, child_count:2
+shift state:254
+process version:0, version_count:2, state:414, row:18, col:20
+lex_external state:4, row:18, column:20
+  skip character:' '
+lex_internal state:52, row:18, column:20
+  skip character:' '
+  consume character:'p'
+  consume character:'l'
+  consume character:'a'
+  consume character:'t'
+  consume character:'f'
+  consume character:'o'
+  consume character:'r'
+  consume character:'m'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:9
+shift state:1009
+process version:1, version_count:2, state:254, row:18, col:20
+lex_external state:2, row:18, column:20
+  skip character:' '
+lex_internal state:6, row:18, column:20
+  skip character:' '
+  consume character:'p'
+  consume character:'l'
+  consume character:'a'
+  consume character:'t'
+  consume character:'f'
+  consume character:'o'
+  consume character:'r'
+  consume character:'m'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:9
+shift state:1482
+process version:0, version_count:2, state:1009, row:18, col:29
+lex_external state:9, row:18, column:29
+  skip character:' '
+lex_internal state:14, row:18, column:29
+  skip character:' '
+  consume character:'='
+lexed_lookahead sym:=, size:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+detect_error
+process version:1, version_count:2, state:1482, row:18, col:29
+lex_external state:15, row:18, column:29
+  skip character:' '
+lex_internal state:8, row:18, column:29
+  skip character:' '
+  consume character:'='
+lexed_lookahead sym:=, size:2
+reduce sym:pattern, child_count:1
+reduce sym:_patterns_repeat1, child_count:2
+reduce sym:_patterns_repeat1, child_count:2
+reduce sym:pattern_list, child_count:2
+shift state:194
+condense
+process version:0, version_count:1, state:194, row:18, col:31
+lex_external state:2, row:18, column:31
+  skip character:' '
+lex_internal state:52, row:18, column:31
+  skip character:' '
+  consume character:'s'
+  consume character:'u'
+  consume character:'p'
+  consume character:'e'
+  consume character:'r'
+lexed_lookahead sym:identifier, size:6
+shift state:626
+process version:0, version_count:1, state:626, row:18, col:37
+lex_external state:9, row:18, column:37
+lex_internal state:7, row:18, column:37
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:18, col:38
+lex_external state:7, row:18, column:38
+lex_internal state:5, row:18, column:38
+  consume character:')'
+lexed_lookahead sym:), size:1
+shift state:1113
+process version:0, version_count:1, state:1113, row:18, col:39
+lex_external state:9, row:18, column:39
+lex_internal state:13, row:18, column:39
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:argument_list, child_count:2
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+shift state:2755
+process version:0, version_count:1, state:2755, row:18, col:40
+lex_external state:15, row:18, column:40
+lex_internal state:52, row:18, column:40
+  consume character:'g'
+  consume character:'e'
+  consume character:'t'
+  consume character:'_'
+  consume character:'t'
+  consume character:'a'
+  consume character:'g'
+  consume character:'g'
+lexed_lookahead sym:identifier, size:7
+shift state:627
+process version:0, version_count:1, state:627, row:18, col:47
+lex_external state:9, row:18, column:47
+lex_internal state:8, row:18, column:47
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:attribute, child_count:3
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:18, col:48
+lex_external state:7, row:18, column:48
+lex_internal state:5, row:18, column:48
+  consume character:')'
+lexed_lookahead sym:), size:1
+shift state:1113
+process version:0, version_count:1, state:1113, row:18, col:49
+lex_external state:9, row:18, column:49
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_newline, size:0
+reduce sym:argument_list, child_count:2
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_right_hand_side, child_count:1
+reduce sym:assignment, child_count:3
+reduce sym:expression_statement, child_count:1
+shift state:689
+process version:0, version_count:1, state:689, row:18, col:49
+lex_external state:3, row:18, column:49
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:18, column:49
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'i'
+  consume character:'f'
+  consume character:'i'
+  consume character:'f'
+lexed_lookahead sym:if, size:11
+reduce sym:_simple_statements, child_count:2
+shift state:603
+process version:0, version_count:1, state:603, row:19, col:10
+lex_external state:2, row:19, column:10
+  skip character:' '
+lex_internal state:52, row:19, column:10
+  skip character:' '
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:7
+shift state:1243
+process version:0, version_count:1, state:1243, row:19, col:17
+lex_external state:15, row:19, column:17
+lex_internal state:14, row:19, column:17
+  consume character:'.'
+lexed_lookahead sym:., size:1
+reduce sym:primary_expression, child_count:1
+shift state:2709
+process version:0, version_count:1, state:2709, row:19, col:18
+lex_external state:15, row:19, column:18
+lex_internal state:52, row:19, column:18
+  consume character:'s'
+  consume character:'t'
+  consume character:'a'
+  consume character:'r'
+  consume character:'t'
+  consume character:'s'
+  consume character:'w'
+  consume character:'i'
+  consume character:'t'
+  consume character:'h'
+lexed_lookahead sym:identifier, size:10
+shift state:1266
+process version:0, version_count:1, state:1266, row:19, col:28
+lex_external state:15, row:19, column:28
+lex_internal state:13, row:19, column:28
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:attribute, child_count:3
+reduce sym:primary_expression, child_count:1
+shift state:248
+process version:0, version_count:1, state:248, row:19, col:29
+lex_external state:7, row:19, column:29
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:19, col:30
+lex_external state:16, row:19, column:30
+  consume character:'c'
+  consume character:'p'
+lexed_lookahead sym:_string_content, size:2
+shift state:1812
+process version:0, version_count:1, state:1812, row:19, col:32
+lex_external state:16, row:19, column:32
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:19, col:33
+lex_external state:7, row:19, column:33
+lex_internal state:13, row:19, column:33
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:1294
+process version:0, version_count:1, state:1294, row:19, col:34
+lex_external state:15, row:19, column:34
+lex_internal state:13, row:19, column:34
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:argument_list, child_count:3
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:113
+process version:0, version_count:1, state:113, row:19, col:35
+lex_external state:5, row:19, column:35
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_indent, size:0
+shift state:34
+process version:0, version_count:1, state:34, row:19, col:35
+lex_external state:3, row:19, column:35
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:19, column:35
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:19
+shift state:626
+process version:0, version_count:1, state:626, row:20, col:18
+lex_external state:9, row:20, column:18
+lex_internal state:7, row:20, column:18
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:pattern, child_count:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:415
+process version:1, version_count:2, state:1634, row:20, col:18
+lex_external state:15, row:20, column:18
+lex_internal state:11, row:20, column:18
+  consume character:','
+lexed_lookahead sym:,, size:1
+shift state:253
+process version:0, version_count:2, state:415, row:20, col:19
+lex_external state:4, row:20, column:19
+  skip character:' '
+lex_internal state:52, row:20, column:19
+  skip character:' '
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1009
+process version:1, version_count:2, state:253, row:20, col:19
+lex_external state:2, row:20, column:19
+  skip character:' '
+lex_internal state:6, row:20, column:19
+  skip character:' '
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1482
+process version:0, version_count:2, state:1009, row:20, col:23
+lex_external state:9, row:20, column:23
+  skip character:' '
+lex_internal state:14, row:20, column:23
+  skip character:' '
+  consume character:'='
+lexed_lookahead sym:=, size:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+detect_error
+process version:1, version_count:2, state:1482, row:20, col:23
+lex_external state:15, row:20, column:23
+  skip character:' '
+lex_internal state:8, row:20, column:23
+  skip character:' '
+  consume character:'='
+lexed_lookahead sym:=, size:2
+reduce sym:pattern, child_count:1
+reduce sym:_patterns_repeat1, child_count:2
+reduce sym:pattern_list, child_count:2
+shift state:194
+condense
+process version:0, version_count:1, state:194, row:20, col:25
+lex_external state:2, row:20, column:25
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1672
+process version:0, version_count:1, state:1672, row:20, col:27
+lex_external state:16, row:20, column:27
+  consume character:'c'
+  consume character:'p'
+  consume character:'3'
+  consume character:'9'
+lexed_lookahead sym:_string_content, size:4
+shift state:1812
+process version:0, version_count:1, state:1812, row:20, col:31
+lex_external state:16, row:20, column:31
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1027
+process version:0, version_count:1, state:1027, row:20, col:32
+lex_external state:4, row:20, column:32
+lex_internal state:13, row:20, column:32
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:383
+process version:0, version_count:1, state:383, row:20, col:33
+lex_external state:4, row:20, column:33
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1672
+process version:0, version_count:1, state:1672, row:20, col:35
+lex_external state:16, row:20, column:35
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'3'
+lexed_lookahead sym:_string_content, size:4
+shift state:1812
+process version:0, version_count:1, state:1812, row:20, col:39
+lex_external state:16, row:20, column:39
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1027
+process version:0, version_count:1, state:1027, row:20, col:40
+lex_external state:4, row:20, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_newline, size:0
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:assert_statement_repeat1, child_count:2
+reduce sym:expression_list, child_count:2
+reduce sym:assignment, child_count:3
+reduce sym:expression_statement, child_count:1
+shift state:689
+process version:0, version_count:1, state:689, row:20, col:40
+lex_external state:3, row:20, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lexed_lookahead sym:_dedent, size:0
+reduce sym:_simple_statements, child_count:2
+shift state:695
+process version:0, version_count:1, state:695, row:20, col:40
+lex_external state:3, row:20, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'r'
+lex_internal state:52, row:20, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'r'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'r'
+  consume character:'n'
+  consume character:'r'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'r'
+  consume character:'n'
+lexed_lookahead sym:return, size:15
+reduce sym:block, child_count:2
+reduce sym:if_statement, child_count:5
+reduce sym:module_repeat1, child_count:2
+shift state:403
+process version:0, version_count:1, state:403, row:21, col:14
+lex_external state:4, row:21, column:14
+  skip character:' '
+lex_internal state:52, row:21, column:14
+  skip character:' '
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:7
+shift state:1009
+process version:0, version_count:1, state:1009, row:21, col:21
+lex_external state:9, row:21, column:21
+lex_internal state:14, row:21, column:21
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:383
+process version:0, version_count:1, state:383, row:21, col:22
+lex_external state:4, row:21, column:22
+  skip character:' '
+lex_internal state:52, row:21, column:22
+  skip character:' '
+  consume character:'a'
+  consume character:'b'
+  consume character:'i'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:4
+shift state:1009
+process version:0, version_count:1, state:1009, row:21, col:26
+lex_external state:9, row:21, column:26
+lex_internal state:14, row:21, column:26
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:assert_statement_repeat1, child_count:2
+shift state:380
+process version:0, version_count:1, state:380, row:21, col:27
+lex_external state:4, row:21, column:27
+  skip character:' '
+lex_internal state:52, row:21, column:27
+  skip character:' '
+  consume character:'p'
+  consume character:'l'
+  consume character:'a'
+  consume character:'t'
+  consume character:'f'
+  consume character:'o'
+  consume character:'r'
+  consume character:'m'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:9
+shift state:1009
+process version:0, version_count:1, state:1009, row:21, col:36
+lex_external state:9, row:21, column:36
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:assert_statement_repeat1, child_count:2
+reduce sym:assert_statement_repeat1, child_count:2
+reduce sym:expression_list, child_count:2
+reduce sym:return_statement, child_count:2
+shift state:689
+process version:0, version_count:1, state:689, row:21, col:36
+lex_external state:3, row:21, column:36
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_dedent, size:0
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+shift state:695
+process version:0, version_count:1, state:695, row:21, col:36
+lex_external state:3, row:21, column:36
+  skip character:10
+  skip character:10
+  skip character:10
+lexed_lookahead sym:_dedent, size:0
+reduce sym:block, child_count:2
+reduce sym:function_definition, child_count:6
+shift state:697
+process version:0, version_count:1, state:697, row:21, col:36
+lex_external state:2, row:21, column:36
+  skip character:10
+  skip character:10
+  skip character:10
+lex_internal state:52, row:21, column:36
+  skip character:10
+  skip character:10
+  skip character:10
+  consume character:'s'
+  consume character:'e'
+  consume character:'t'
+  consume character:'u'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:8
+reduce sym:block, child_count:2
+reduce sym:class_definition, child_count:6
+reduce sym:module_repeat1, child_count:2
+shift state:626
+process version:0, version_count:1, state:626, row:24, col:5
+lex_external state:9, row:24, column:5
+lex_internal state:7, row:24, column:5
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:263
+process version:0, version_count:1, state:263, row:24, col:6
+lex_external state:7, row:24, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:24, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'s'
+  consume character:'p'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:13
+shift state:1116
+process version:0, version_count:1, state:1116, row:25, col:12
+lex_external state:13, row:25, column:12
+lex_internal state:14, row:25, column:12
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:25, col:13
+lex_external state:2, row:25, column:13
+  consume character:'f'
+lex_internal state:52, row:25, column:13
+  consume character:'f'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'_'
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'s'
+  consume character:'f'
+  consume character:'i'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:13
+shift state:1147
+process version:0, version_count:1, state:1147, row:25, col:26
+lex_external state:13, row:25, column:26
+lex_internal state:14, row:25, column:26
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:261
+process version:0, version_count:1, state:261, row:25, col:27
+lex_external state:7, row:25, column:27
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:25, col:28
+lex_external state:16, row:25, column:28
+  consume character:'b'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'i'
+  consume character:'n'
+  consume character:'g'
+  consume character:'s'
+  consume character:'/'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:15
+shift state:1812
+process version:0, version_count:1, state:1812, row:25, col:43
+lex_external state:16, row:25, column:43
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:25, col:44
+lex_external state:7, row:25, column:44
+lex_internal state:13, row:25, column:44
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:1304
+process version:0, version_count:1, state:1304, row:25, col:45
+lex_external state:13, row:25, column:45
+lex_internal state:13, row:25, column:45
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:argument_list, child_count:3
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+shift state:272
+process version:0, version_count:1, state:272, row:25, col:46
+lex_external state:7, row:25, column:46
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:25, column:46
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'_'
+  consume character:'d'
+  consume character:'i'
+  consume character:'r'
+  consume character:'p'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:16
+shift state:1401
+process version:0, version_count:1, state:1401, row:26, col:15
+lex_external state:13, row:26, column:15
+lex_internal state:14, row:26, column:15
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:26, col:16
+lex_external state:2, row:26, column:16
+lex_internal state:52, row:26, column:16
+  consume character:'{'
+lexed_lookahead sym:{, size:1
+shift state:207
+process version:0, version_count:1, state:207, row:26, col:17
+lex_external state:6, row:26, column:17
+  consume character:'"'
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1689
+process version:0, version_count:1, state:1689, row:26, col:18
+lex_external state:16, row:26, column:18
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+shift state:1088
+process version:0, version_count:1, state:1088, row:26, col:19
+lex_external state:6, row:26, column:19
+lex_internal state:13, row:26, column:19
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:string, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:540
+process version:0, version_count:1, state:540, row:26, col:20
+lex_external state:2, row:26, column:20
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1689
+process version:0, version_count:1, state:1689, row:26, col:22
+lex_external state:16, row:26, column:22
+  consume character:'b'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'i'
+  consume character:'n'
+  consume character:'g'
+  consume character:'s'
+  consume character:'/'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:15
+shift state:1812
+process version:0, version_count:1, state:1812, row:26, col:37
+lex_external state:16, row:26, column:37
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1090
+process version:0, version_count:1, state:1090, row:26, col:38
+lex_external state:6, row:26, column:38
+lex_internal state:13, row:26, column:38
+  consume character:'}'
+lexed_lookahead sym:}, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:pair, child_count:3
+shift state:1287
+process version:0, version_count:1, state:1287, row:26, col:39
+lex_external state:13, row:26, column:39
+lex_internal state:13, row:26, column:39
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dictionary, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:26, col:40
+lex_external state:7, row:26, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:26, column:40
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'_'
+  consume character:'d'
+  consume character:'a'
+  consume character:'t'
+  consume character:'a'
+  consume character:'p'
+  consume character:'a'
+lexed_lookahead sym:identifier, size:17
+shift state:1401
+process version:0, version_count:1, state:1401, row:27, col:16
+lex_external state:13, row:27, column:16
+lex_internal state:14, row:27, column:16
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:27, col:17
+lex_external state:2, row:27, column:17
+lex_internal state:52, row:27, column:17
+  consume character:'{'
+lexed_lookahead sym:{, size:1
+shift state:207
+process version:0, version_count:1, state:207, row:27, col:18
+lex_external state:6, row:27, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:10
+shift state:1689
+process version:0, version_count:1, state:1689, row:28, col:9
+lex_external state:16, row:28, column:9
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'_'
+  consume character:'s'
+  consume character:'i'
+  consume character:'t'
+  consume character:'t'
+  consume character:'e'
+  consume character:'r'
+  consume character:'_'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:18
+shift state:1812
+process version:0, version_count:1, state:1812, row:28, col:27
+lex_external state:16, row:28, column:27
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1090
+process version:0, version_count:1, state:1090, row:28, col:28
+lex_external state:6, row:28, column:28
+lex_internal state:13, row:28, column:28
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:540
+process version:0, version_count:1, state:540, row:28, col:29
+lex_external state:2, row:28, column:29
+  skip character:' '
+lex_internal state:52, row:28, column:29
+  skip character:' '
+  consume character:'['
+lexed_lookahead sym:[, size:2
+shift state:280
+process version:0, version_count:1, state:280, row:28, col:31
+lex_external state:8, row:28, column:31
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1684
+process version:0, version_count:1, state:1684, row:28, col:32
+lex_external state:16, row:28, column:32
+  consume character:'*'
+  consume character:'.'
+  consume character:'p'
+  consume character:'y'
+  consume character:'i'
+lexed_lookahead sym:_string_content, size:5
+shift state:1812
+process version:0, version_count:1, state:1812, row:28, col:37
+lex_external state:16, row:28, column:37
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:28, col:38
+lex_external state:8, row:28, column:38
+lex_internal state:13, row:28, column:38
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:347
+process version:0, version_count:1, state:347, row:28, col:39
+lex_external state:8, row:28, column:39
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1703
+process version:0, version_count:1, state:1703, row:28, col:41
+lex_external state:16, row:28, column:41
+  consume character:'p'
+  consume character:'y'
+  consume character:'.'
+  consume character:'t'
+  consume character:'y'
+  consume character:'p'
+  consume character:'e'
+  consume character:'d'
+lexed_lookahead sym:_string_content, size:8
+shift state:1812
+process version:0, version_count:1, state:1812, row:28, col:49
+lex_external state:16, row:28, column:49
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1351
+process version:0, version_count:1, state:1351, row:28, col:50
+lex_external state:8, row:28, column:50
+lex_internal state:13, row:28, column:50
+  consume character:']'
+lexed_lookahead sym:], size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements, child_count:2
+shift state:1156
+process version:0, version_count:1, state:1156, row:28, col:51
+lex_external state:12, row:28, column:51
+lex_internal state:13, row:28, column:51
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:pair, child_count:3
+shift state:361
+process version:0, version_count:1, state:361, row:28, col:52
+lex_external state:6, row:28, column:52
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:10
+shift state:1674
+process version:0, version_count:1, state:1674, row:29, col:9
+lex_external state:16, row:29, column:9
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'_'
+  consume character:'s'
+  consume character:'i'
+  consume character:'t'
+  consume character:'t'
+  consume character:'e'
+  consume character:'r'
+  consume character:'_'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'.'
+  consume character:'q'
+  consume character:'u'
+  consume character:'e'
+  consume character:'r'
+  consume character:'i'
+  consume character:'e'
+  consume character:'s'
+lexed_lookahead sym:_string_content, size:26
+shift state:1812
+process version:0, version_count:1, state:1812, row:29, col:35
+lex_external state:16, row:29, column:35
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1253
+process version:0, version_count:1, state:1253, row:29, col:36
+lex_external state:2, row:29, column:36
+lex_internal state:13, row:29, column:36
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:529
+process version:0, version_count:1, state:529, row:29, col:37
+lex_external state:2, row:29, column:37
+  skip character:' '
+lex_internal state:52, row:29, column:37
+  skip character:' '
+  consume character:'['
+lexed_lookahead sym:[, size:2
+shift state:316
+process version:0, version_count:1, state:316, row:29, col:39
+lex_external state:8, row:29, column:39
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1684
+process version:0, version_count:1, state:1684, row:29, col:40
+lex_external state:16, row:29, column:40
+  consume character:'*'
+  consume character:'.'
+  consume character:'s'
+  consume character:'c'
+  consume character:'m'
+lexed_lookahead sym:_string_content, size:5
+shift state:1812
+process version:0, version_count:1, state:1812, row:29, col:45
+lex_external state:16, row:29, column:45
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:29, col:46
+lex_external state:8, row:29, column:46
+lex_internal state:13, row:29, column:46
+  consume character:']'
+lexed_lookahead sym:], size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements, child_count:1
+shift state:1184
+process version:0, version_count:1, state:1184, row:29, col:47
+lex_external state:12, row:29, column:47
+lex_internal state:13, row:29, column:47
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:pair, child_count:3
+reduce sym:dictionary_repeat1, child_count:2
+shift state:362
+process version:0, version_count:1, state:362, row:29, col:48
+lex_external state:6, row:29, column:48
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:29, column:48
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'}'
+lexed_lookahead sym:}, size:6
+shift state:1307
+process version:0, version_count:1, state:1307, row:30, col:5
+lex_external state:13, row:30, column:5
+lex_internal state:13, row:30, column:5
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dictionary, child_count:5
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:30, col:6
+lex_external state:7, row:30, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:30, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'e'
+  consume character:'x'
+  consume character:'t'
+  consume character:'_'
+  consume character:'p'
+  consume character:'a'
+  consume character:'c'
+  consume character:'k'
+  consume character:'a'
+  consume character:'g'
+  consume character:'e'
+  consume character:'e'
+  consume character:'x'
+lexed_lookahead sym:identifier, size:16
+shift state:1401
+process version:0, version_count:1, state:1401, row:31, col:15
+lex_external state:13, row:31, column:15
+lex_internal state:14, row:31, column:15
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:31, col:16
+lex_external state:2, row:31, column:16
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1699
+process version:0, version_count:1, state:1699, row:31, col:17
+lex_external state:16, row:31, column:17
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'_'
+  consume character:'s'
+  consume character:'i'
+  consume character:'t'
+  consume character:'t'
+  consume character:'e'
+  consume character:'r'
+  consume character:'_'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:18
+shift state:1812
+process version:0, version_count:1, state:1812, row:31, col:35
+lex_external state:16, row:31, column:35
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1220
+process version:0, version_count:1, state:1220, row:31, col:36
+lex_external state:7, row:31, column:36
+lex_internal state:13, row:31, column:36
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:31, col:37
+lex_external state:7, row:31, column:37
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:31, column:37
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'e'
+  consume character:'x'
+  consume character:'t'
+  consume character:'_'
+  consume character:'m'
+  consume character:'o'
+  consume character:'d'
+  consume character:'u'
+  consume character:'l'
+  consume character:'e'
+  consume character:'s'
+  consume character:'e'
+  consume character:'x'
+lexed_lookahead sym:identifier, size:16
+shift state:1401
+process version:0, version_count:1, state:1401, row:32, col:15
+lex_external state:13, row:32, column:15
+lex_internal state:14, row:32, column:15
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:32, col:16
+lex_external state:2, row:32, column:16
+lex_internal state:52, row:32, column:16
+  consume character:'['
+lexed_lookahead sym:[, size:1
+shift state:288
+process version:0, version_count:1, state:288, row:32, col:17
+lex_external state:8, row:32, column:17
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:32, column:17
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'E'
+  consume character:'x'
+  consume character:'t'
+  consume character:'e'
+  consume character:'n'
+  consume character:'s'
+  consume character:'i'
+  consume character:'o'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:18
+shift state:1176
+process version:0, version_count:1, state:1176, row:33, col:17
+lex_external state:14, row:33, column:17
+lex_internal state:14, row:33, column:17
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:251
+process version:0, version_count:1, state:251, row:33, col:18
+lex_external state:7, row:33, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:33, column:18
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'n'
+  consume character:'a'
+  consume character:'m'
+  consume character:'e'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:17
+shift state:1116
+process version:0, version_count:1, state:1116, row:34, col:16
+lex_external state:13, row:34, column:16
+lex_internal state:14, row:34, column:16
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:34, col:17
+lex_external state:2, row:34, column:17
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1699
+process version:0, version_count:1, state:1699, row:34, col:18
+lex_external state:16, row:34, column:18
+  consume character:'_'
+  consume character:'b'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'i'
+  consume character:'n'
+  consume character:'g'
+lexed_lookahead sym:_string_content, size:8
+shift state:1812
+process version:0, version_count:1, state:1812, row:34, col:26
+lex_external state:16, row:34, column:26
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1220
+process version:0, version_count:1, state:1220, row:34, col:27
+lex_external state:7, row:34, column:27
+lex_internal state:13, row:34, column:27
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+shift state:291
+process version:0, version_count:1, state:291, row:34, col:28
+lex_external state:7, row:34, column:28
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:34, column:28
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'s'
+  consume character:'o'
+  consume character:'u'
+  consume character:'r'
+  consume character:'c'
+  consume character:'e'
+  consume character:'s'
+lexed_lookahead sym:identifier, size:20
+shift state:1401
+process version:0, version_count:1, state:1401, row:35, col:19
+lex_external state:13, row:35, column:19
+lex_internal state:14, row:35, column:19
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:35, col:20
+lex_external state:2, row:35, column:20
+lex_internal state:52, row:35, column:20
+  consume character:'['
+lexed_lookahead sym:[, size:1
+shift state:288
+process version:0, version_count:1, state:288, row:35, col:21
+lex_external state:8, row:35, column:21
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1684
+process version:0, version_count:1, state:1684, row:36, col:17
+lex_external state:16, row:36, column:17
+  consume character:'b'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'i'
+  consume character:'n'
+  consume character:'g'
+  consume character:'s'
+  consume character:'/'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'/'
+  consume character:'t'
+  consume character:'r'
+  consume character:'e'
+  consume character:'e'
+  consume character:'_'
+  consume character:'s'
+  consume character:'i'
+  consume character:'t'
+  consume character:'t'
+  consume character:'e'
+  consume character:'r'
+  consume character:'_'
+  consume character:'p'
+  consume character:'y'
+  consume character:'t'
+  consume character:'h'
+  consume character:'o'
+  consume character:'n'
+  consume character:'/'
+  consume character:'b'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'i'
+  consume character:'n'
+  consume character:'g'
+  consume character:'.'
+  consume character:'c'
+lexed_lookahead sym:_string_content, size:44
+shift state:1812
+process version:0, version_count:1, state:1812, row:36, col:61
+lex_external state:16, row:36, column:61
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:36, col:62
+lex_external state:8, row:36, column:62
+lex_internal state:13, row:36, column:62
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:347
+process version:0, version_count:1, state:347, row:36, col:63
+lex_external state:8, row:36, column:63
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1703
+process version:0, version_count:1, state:1703, row:37, col:17
+lex_external state:16, row:37, column:17
+  consume character:'s'
+  consume character:'r'
+  consume character:'c'
+  consume character:'/'
+  consume character:'p'
+  consume character:'a'
+  consume character:'r'
+  consume character:'s'
+  consume character:'e'
+  consume character:'r'
+  consume character:'.'
+  consume character:'c'
+lexed_lookahead sym:_string_content, size:12
+shift state:1812
+process version:0, version_count:1, state:1812, row:37, col:29
+lex_external state:16, row:37, column:29
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1351
+process version:0, version_count:1, state:1351, row:37, col:30
+lex_external state:8, row:37, column:30
+lex_internal state:13, row:37, column:30
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:37, col:31
+lex_external state:8, row:37, column:31
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1703
+process version:0, version_count:1, state:1703, row:38, col:17
+lex_external state:16, row:38, column:17
+  consume character:'s'
+  consume character:'r'
+  consume character:'c'
+  consume character:'/'
+  consume character:'s'
+  consume character:'c'
+  consume character:'a'
+  consume character:'n'
+  consume character:'n'
+  consume character:'e'
+  consume character:'r'
+  consume character:'.'
+  consume character:'c'
+lexed_lookahead sym:_string_content, size:13
+shift state:1812
+process version:0, version_count:1, state:1812, row:38, col:30
+lex_external state:16, row:38, column:30
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1351
+process version:0, version_count:1, state:1351, row:38, col:31
+lex_external state:8, row:38, column:31
+lex_internal state:13, row:38, column:31
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:38, col:32
+lex_external state:8, row:38, column:32
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:38, column:32
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:']'
+lexed_lookahead sym:], size:14
+reduce sym:_collection_elements, child_count:3
+shift state:1286
+process version:0, version_count:1, state:1286, row:39, col:13
+lex_external state:13, row:39, column:13
+lex_internal state:13, row:39, column:13
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+shift state:293
+process version:0, version_count:1, state:293, row:39, col:14
+lex_external state:7, row:39, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:39, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'e'
+  consume character:'x'
+  consume character:'t'
+  consume character:'r'
+  consume character:'a'
+  consume character:'_'
+  consume character:'c'
+  consume character:'o'
+  consume character:'m'
+  consume character:'p'
+  consume character:'i'
+  consume character:'l'
+  consume character:'e'
+  consume character:'_'
+  consume character:'a'
+  consume character:'r'
+  consume character:'g'
+  consume character:'s'
+  consume character:'e'
+  consume character:'x'
+lexed_lookahead sym:identifier, size:31
+shift state:1401
+process version:0, version_count:1, state:1401, row:40, col:30
+lex_external state:13, row:40, column:30
+lex_internal state:14, row:40, column:30
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:40, col:31
+lex_external state:2, row:40, column:31
+lex_internal state:52, row:40, column:31
+  consume character:'['
+lexed_lookahead sym:[, size:1
+shift state:288
+process version:0, version_count:1, state:288, row:40, col:32
+lex_external state:8, row:40, column:32
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1684
+process version:0, version_count:1, state:1684, row:41, col:17
+lex_external state:16, row:41, column:17
+  consume character:'-'
+  consume character:'s'
+  consume character:'t'
+  consume character:'d'
+  consume character:'='
+  consume character:'c'
+  consume character:'1'
+  consume character:'1'
+lexed_lookahead sym:_string_content, size:8
+shift state:1812
+process version:0, version_count:1, state:1812, row:41, col:25
+lex_external state:16, row:41, column:25
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:41, col:26
+lex_external state:8, row:41, column:26
+lex_internal state:13, row:41, column:26
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:347
+process version:0, version_count:1, state:347, row:41, col:27
+lex_external state:8, row:41, column:27
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1703
+process version:0, version_count:1, state:1703, row:42, col:17
+lex_external state:16, row:42, column:17
+  consume character:'-'
+  consume character:'f'
+  consume character:'v'
+  consume character:'i'
+  consume character:'s'
+  consume character:'i'
+  consume character:'b'
+  consume character:'i'
+  consume character:'l'
+  consume character:'i'
+  consume character:'t'
+  consume character:'y'
+  consume character:'='
+  consume character:'h'
+  consume character:'i'
+  consume character:'d'
+  consume character:'d'
+  consume character:'e'
+  consume character:'n'
+lexed_lookahead sym:_string_content, size:19
+shift state:1812
+process version:0, version_count:1, state:1812, row:42, col:36
+lex_external state:16, row:42, column:36
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1351
+process version:0, version_count:1, state:1351, row:42, col:37
+lex_external state:8, row:42, column:37
+lex_internal state:13, row:42, column:37
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:42, col:38
+lex_external state:8, row:42, column:38
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:42, column:38
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:']'
+lexed_lookahead sym:], size:14
+reduce sym:_collection_elements, child_count:3
+shift state:1286
+process version:0, version_count:1, state:1286, row:43, col:13
+lex_external state:13, row:43, column:13
+  skip character:' '
+lex_internal state:13, row:43, column:13
+  skip character:' '
+  consume character:'i'
+  consume character:'f'
+  consume character:'i'
+  consume character:'f'
+lexed_lookahead sym:if, size:3
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:601
+process version:0, version_count:1, state:601, row:43, col:16
+lex_external state:2, row:43, column:16
+  skip character:' '
+lex_internal state:52, row:43, column:16
+  skip character:' '
+  consume character:'s'
+  consume character:'y'
+  consume character:'s'
+  consume character:'t'
+  consume character:'e'
+  consume character:'m'
+lexed_lookahead sym:identifier, size:7
+shift state:1243
+process version:0, version_count:1, state:1243, row:43, col:23
+lex_external state:15, row:43, column:23
+lex_internal state:14, row:43, column:23
+  consume character:'('
+lexed_lookahead sym:(, size:1
+reduce sym:primary_expression, child_count:1
+shift state:248
+process version:0, version_count:1, state:248, row:43, col:24
+lex_external state:7, row:43, column:24
+lex_internal state:5, row:43, column:24
+  consume character:')'
+lexed_lookahead sym:), size:1
+shift state:1316
+process version:0, version_count:1, state:1316, row:43, col:25
+lex_external state:15, row:43, column:25
+  skip character:' '
+lex_internal state:13, row:43, column:25
+  skip character:' '
+  consume character:'!'
+  consume character:'='
+lexed_lookahead sym:!=, size:3
+reduce sym:argument_list, child_count:2
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+shift state:928
+process version:0, version_count:1, state:928, row:43, col:28
+lex_external state:2, row:43, column:28
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1674
+process version:0, version_count:1, state:1674, row:43, col:30
+lex_external state:16, row:43, column:30
+  consume character:'W'
+  consume character:'i'
+  consume character:'n'
+  consume character:'d'
+  consume character:'o'
+  consume character:'w'
+  consume character:'s'
+lexed_lookahead sym:_string_content, size:7
+shift state:1812
+process version:0, version_count:1, state:1812, row:43, col:37
+lex_external state:16, row:43, column:37
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1253
+process version:0, version_count:1, state:1253, row:43, col:38
+lex_external state:2, row:43, column:38
+  skip character:' '
+lex_internal state:13, row:43, column:38
+  skip character:' '
+  consume character:'e'
+  consume character:'l'
+  consume character:'s'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+  consume character:'s'
+  consume character:'e'
+lexed_lookahead sym:else, size:5
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:comparison_operator_repeat1, child_count:2
+reduce sym:comparison_operator, child_count:2
+reduce sym:expression, child_count:1
+shift state:513
+process version:0, version_count:1, state:513, row:43, col:43
+lex_external state:2, row:43, column:43
+  skip character:' '
+lex_internal state:52, row:43, column:43
+  skip character:' '
+  consume character:'['
+lexed_lookahead sym:[, size:2
+shift state:288
+process version:0, version_count:1, state:288, row:43, col:45
+lex_external state:8, row:43, column:45
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1684
+process version:0, version_count:1, state:1684, row:44, col:17
+lex_external state:16, row:44, column:17
+  consume character:'/'
+  consume character:'s'
+  consume character:'t'
+  consume character:'d'
+  consume character:':'
+  consume character:'c'
+  consume character:'1'
+  consume character:'1'
+lexed_lookahead sym:_string_content, size:8
+shift state:1812
+process version:0, version_count:1, state:1812, row:44, col:25
+lex_external state:16, row:44, column:25
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:44, col:26
+lex_external state:8, row:44, column:26
+lex_internal state:13, row:44, column:26
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:347
+process version:0, version_count:1, state:347, row:44, col:27
+lex_external state:8, row:44, column:27
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:18
+shift state:1703
+process version:0, version_count:1, state:1703, row:45, col:17
+lex_external state:16, row:45, column:17
+  consume character:'/'
+  consume character:'u'
+  consume character:'t'
+  consume character:'f'
+  consume character:'-'
+  consume character:'8'
+lexed_lookahead sym:_string_content, size:6
+shift state:1812
+process version:0, version_count:1, state:1812, row:45, col:23
+lex_external state:16, row:45, column:23
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1351
+process version:0, version_count:1, state:1351, row:45, col:24
+lex_external state:8, row:45, column:24
+lex_internal state:13, row:45, column:24
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:45, col:25
+lex_external state:8, row:45, column:25
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:45, column:25
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:']'
+lexed_lookahead sym:], size:14
+reduce sym:_collection_elements, child_count:3
+shift state:1286
+process version:0, version_count:1, state:1286, row:46, col:13
+lex_external state:13, row:46, column:13
+lex_internal state:13, row:46, column:13
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:conditional_expression, child_count:5
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:293
+process version:0, version_count:1, state:293, row:46, col:14
+lex_external state:7, row:46, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:46, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+  consume character:'i'
+  consume character:'n'
+  consume character:'e'
+  consume character:'_'
+  consume character:'m'
+  consume character:'a'
+  consume character:'c'
+  consume character:'r'
+  consume character:'o'
+  consume character:'s'
+  consume character:'d'
+  consume character:'e'
+  consume character:'f'
+lexed_lookahead sym:identifier, size:26
+shift state:1401
+process version:0, version_count:1, state:1401, row:47, col:25
+lex_external state:13, row:47, column:25
+lex_internal state:14, row:47, column:25
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:47, col:26
+lex_external state:2, row:47, column:26
+lex_internal state:52, row:47, column:26
+  consume character:'['
+lexed_lookahead sym:[, size:1
+shift state:288
+process version:0, version_count:1, state:288, row:47, col:27
+lex_external state:8, row:47, column:27
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:47, column:27
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'('
+lexed_lookahead sym:(, size:18
+shift state:281
+process version:0, version_count:1, state:281, row:48, col:17
+lex_external state:7, row:48, column:17
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:48, col:18
+lex_external state:16, row:48, column:18
+  consume character:'P'
+  consume character:'y'
+  consume character:'_'
+  consume character:'L'
+  consume character:'I'
+  consume character:'M'
+  consume character:'I'
+  consume character:'T'
+  consume character:'E'
+  consume character:'D'
+  consume character:'_'
+  consume character:'A'
+  consume character:'P'
+  consume character:'I'
+lexed_lookahead sym:_string_content, size:14
+shift state:1812
+process version:0, version_count:1, state:1812, row:48, col:32
+lex_external state:16, row:48, column:32
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:48, col:33
+lex_external state:7, row:48, column:33
+lex_internal state:13, row:48, column:33
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:346
+process version:0, version_count:1, state:346, row:48, col:34
+lex_external state:7, row:48, column:34
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:2
+shift state:1699
+process version:0, version_count:1, state:1699, row:48, col:36
+lex_external state:16, row:48, column:36
+  consume character:'0'
+  consume character:'x'
+  consume character:'0'
+  consume character:'3'
+  consume character:'0'
+  consume character:'9'
+  consume character:'0'
+  consume character:'0'
+  consume character:'0'
+  consume character:'0'
+lexed_lookahead sym:_string_content, size:10
+shift state:1812
+process version:0, version_count:1, state:1812, row:48, col:46
+lex_external state:16, row:48, column:46
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1220
+process version:0, version_count:1, state:1220, row:48, col:47
+lex_external state:7, row:48, column:47
+lex_internal state:13, row:48, column:47
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements, child_count:2
+shift state:1408
+process version:0, version_count:1, state:1408, row:48, col:48
+lex_external state:14, row:48, column:48
+lex_internal state:13, row:48, column:48
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:tuple, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:347
+process version:0, version_count:1, state:347, row:48, col:49
+lex_external state:8, row:48, column:49
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:48, column:49
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'('
+lexed_lookahead sym:(, size:18
+shift state:325
+process version:0, version_count:1, state:325, row:49, col:17
+lex_external state:7, row:49, column:17
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:49, col:18
+lex_external state:16, row:49, column:18
+  consume character:'P'
+  consume character:'Y'
+  consume character:'_'
+  consume character:'S'
+  consume character:'S'
+  consume character:'I'
+  consume character:'Z'
+  consume character:'E'
+  consume character:'_'
+  consume character:'T'
+  consume character:'_'
+  consume character:'C'
+  consume character:'L'
+  consume character:'E'
+  consume character:'A'
+  consume character:'N'
+lexed_lookahead sym:_string_content, size:16
+shift state:1812
+process version:0, version_count:1, state:1812, row:49, col:34
+lex_external state:16, row:49, column:34
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:49, col:35
+lex_external state:7, row:49, column:35
+lex_internal state:13, row:49, column:35
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:346
+process version:0, version_count:1, state:346, row:49, col:36
+lex_external state:7, row:49, column:36
+  skip character:' '
+lex_internal state:52, row:49, column:36
+  skip character:' '
+  consume character:'N'
+  consume character:'o'
+  consume character:'n'
+  consume character:'e'
+  consume character:'N'
+  consume character:'o'
+  consume character:'n'
+  consume character:'e'
+lexed_lookahead sym:none, size:5
+shift state:1270
+process version:0, version_count:1, state:1270, row:49, col:41
+lex_external state:13, row:49, column:41
+lex_internal state:13, row:49, column:41
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements, child_count:2
+shift state:1461
+process version:0, version_count:1, state:1461, row:49, col:42
+lex_external state:14, row:49, column:42
+lex_internal state:13, row:49, column:42
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:tuple, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:49, col:43
+lex_external state:8, row:49, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:49, column:43
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'('
+lexed_lookahead sym:(, size:18
+shift state:325
+process version:0, version_count:1, state:325, row:50, col:17
+lex_external state:7, row:50, column:17
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1710
+process version:0, version_count:1, state:1710, row:50, col:18
+lex_external state:16, row:50, column:18
+  consume character:'T'
+  consume character:'R'
+  consume character:'E'
+  consume character:'E'
+  consume character:'_'
+  consume character:'S'
+  consume character:'I'
+  consume character:'T'
+  consume character:'T'
+  consume character:'E'
+  consume character:'R'
+  consume character:'_'
+  consume character:'H'
+  consume character:'I'
+  consume character:'D'
+  consume character:'E'
+  consume character:'_'
+  consume character:'S'
+  consume character:'Y'
+  consume character:'M'
+  consume character:'B'
+  consume character:'O'
+  consume character:'L'
+  consume character:'S'
+lexed_lookahead sym:_string_content, size:24
+shift state:1812
+process version:0, version_count:1, state:1812, row:50, col:42
+lex_external state:16, row:50, column:42
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1245
+process version:0, version_count:1, state:1245, row:50, col:43
+lex_external state:7, row:50, column:43
+lex_internal state:13, row:50, column:43
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:346
+process version:0, version_count:1, state:346, row:50, col:44
+lex_external state:7, row:50, column:44
+  skip character:' '
+lex_internal state:52, row:50, column:44
+  skip character:' '
+  consume character:'N'
+  consume character:'o'
+  consume character:'n'
+  consume character:'e'
+  consume character:'N'
+  consume character:'o'
+  consume character:'n'
+  consume character:'e'
+lexed_lookahead sym:none, size:5
+shift state:1270
+process version:0, version_count:1, state:1270, row:50, col:49
+lex_external state:13, row:50, column:49
+lex_internal state:13, row:50, column:49
+  consume character:')'
+lexed_lookahead sym:), size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements, child_count:2
+shift state:1461
+process version:0, version_count:1, state:1461, row:50, col:50
+lex_external state:14, row:50, column:50
+lex_internal state:13, row:50, column:50
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:tuple, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements_repeat1, child_count:2
+reduce sym:_collection_elements_repeat1, child_count:2
+shift state:327
+process version:0, version_count:1, state:327, row:50, col:51
+lex_external state:8, row:50, column:51
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:52, row:50, column:51
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:']'
+lexed_lookahead sym:], size:14
+reduce sym:_collection_elements, child_count:3
+shift state:1286
+process version:0, version_count:1, state:1286, row:51, col:13
+lex_external state:13, row:51, column:13
+lex_internal state:13, row:51, column:13
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:293
+process version:0, version_count:1, state:293, row:51, col:14
+lex_external state:7, row:51, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:51, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'i'
+  consume character:'n'
+  consume character:'c'
+  consume character:'l'
+  consume character:'u'
+  consume character:'d'
+  consume character:'e'
+  consume character:'_'
+  consume character:'d'
+  consume character:'i'
+  consume character:'r'
+  consume character:'s'
+  consume character:'i'
+  consume character:'n'
+lexed_lookahead sym:identifier, size:25
+shift state:1401
+process version:0, version_count:1, state:1401, row:52, col:24
+lex_external state:13, row:52, column:24
+lex_internal state:14, row:52, column:24
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:52, col:25
+lex_external state:2, row:52, column:25
+lex_internal state:52, row:52, column:25
+  consume character:'['
+lexed_lookahead sym:[, size:1
+shift state:288
+process version:0, version_count:1, state:288, row:52, col:26
+lex_external state:8, row:52, column:26
+  consume character:'"'
+lexed_lookahead sym:string_start, size:1
+shift state:1684
+process version:0, version_count:1, state:1684, row:52, col:27
+lex_external state:16, row:52, column:27
+  consume character:'s'
+  consume character:'r'
+  consume character:'c'
+lexed_lookahead sym:_string_content, size:3
+shift state:1812
+process version:0, version_count:1, state:1812, row:52, col:30
+lex_external state:16, row:52, column:30
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1153
+process version:0, version_count:1, state:1153, row:52, col:31
+lex_external state:8, row:52, column:31
+lex_internal state:13, row:52, column:31
+  consume character:']'
+lexed_lookahead sym:], size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements, child_count:1
+shift state:1286
+process version:0, version_count:1, state:1286, row:52, col:32
+lex_external state:13, row:52, column:32
+lex_internal state:13, row:52, column:32
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:293
+process version:0, version_count:1, state:293, row:52, col:33
+lex_external state:7, row:52, column:33
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:52, column:33
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'p'
+  consume character:'y'
+  consume character:'_'
+  consume character:'l'
+  consume character:'i'
+  consume character:'m'
+  consume character:'i'
+  consume character:'t'
+  consume character:'e'
+  consume character:'d'
+  consume character:'_'
+  consume character:'a'
+  consume character:'p'
+  consume character:'i'
+  consume character:'p'
+lexed_lookahead sym:identifier, size:27
+shift state:1401
+process version:0, version_count:1, state:1401, row:53, col:26
+lex_external state:13, row:53, column:26
+lex_internal state:14, row:53, column:26
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:53, col:27
+lex_external state:2, row:53, column:27
+lex_internal state:52, row:53, column:27
+  consume character:'T'
+  consume character:'r'
+  consume character:'u'
+  consume character:'e'
+  consume character:'T'
+  consume character:'r'
+  consume character:'u'
+  consume character:'e'
+lexed_lookahead sym:true, size:4
+shift state:1270
+process version:0, version_count:1, state:1270, row:53, col:31
+lex_external state:13, row:53, column:31
+lex_internal state:13, row:53, column:31
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:293
+process version:0, version_count:1, state:293, row:53, col:32
+lex_external state:7, row:53, column:32
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:53, column:32
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:')'
+lexed_lookahead sym:), size:10
+shift state:1366
+process version:0, version_count:1, state:1366, row:54, col:9
+lex_external state:14, row:54, column:9
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:13, row:54, column:9
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:']'
+lexed_lookahead sym:], size:6
+reduce sym:argument_list, child_count:5
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:_collection_elements, child_count:1
+shift state:1286
+process version:0, version_count:1, state:1286, row:55, col:5
+lex_external state:13, row:55, column:5
+lex_internal state:13, row:55, column:5
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:list, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:55, col:6
+lex_external state:7, row:55, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:55, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'c'
+  consume character:'m'
+  consume character:'d'
+  consume character:'c'
+  consume character:'l'
+  consume character:'a'
+  consume character:'s'
+  consume character:'s'
+  consume character:'c'
+lexed_lookahead sym:identifier, size:13
+shift state:1401
+process version:0, version_count:1, state:1401, row:56, col:12
+lex_external state:13, row:56, column:12
+lex_internal state:14, row:56, column:12
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:56, col:13
+lex_external state:2, row:56, column:13
+lex_internal state:52, row:56, column:13
+  consume character:'{'
+lexed_lookahead sym:{, size:1
+shift state:207
+process version:0, version_count:1, state:207, row:56, col:14
+lex_external state:6, row:56, column:14
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:10
+shift state:1689
+process version:0, version_count:1, state:1689, row:57, col:9
+lex_external state:16, row:57, column:9
+  consume character:'b'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+lexed_lookahead sym:_string_content, size:5
+shift state:1812
+process version:0, version_count:1, state:1812, row:57, col:14
+lex_external state:16, row:57, column:14
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1090
+process version:0, version_count:1, state:1090, row:57, col:15
+lex_external state:6, row:57, column:15
+lex_internal state:13, row:57, column:15
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:540
+process version:0, version_count:1, state:540, row:57, col:16
+lex_external state:2, row:57, column:16
+  skip character:' '
+  consume character:'B'
+  consume character:'u'
+lex_internal state:52, row:57, column:16
+  skip character:' '
+  consume character:'B'
+  consume character:'u'
+  consume character:'i'
+  consume character:'l'
+  consume character:'d'
+lexed_lookahead sym:identifier, size:6
+shift state:1049
+process version:0, version_count:1, state:1049, row:57, col:22
+lex_external state:12, row:57, column:22
+lex_internal state:14, row:57, column:22
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:pair, child_count:3
+shift state:361
+process version:0, version_count:1, state:361, row:57, col:23
+lex_external state:6, row:57, column:23
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'"'
+lexed_lookahead sym:string_start, size:10
+shift state:1674
+process version:0, version_count:1, state:1674, row:58, col:9
+lex_external state:16, row:58, column:9
+  consume character:'b'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'_'
+  consume character:'w'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+lexed_lookahead sym:_string_content, size:11
+shift state:1812
+process version:0, version_count:1, state:1812, row:58, col:20
+lex_external state:16, row:58, column:20
+  consume character:'"'
+lexed_lookahead sym:string_end, size:1
+reduce sym:string_content, child_count:1
+shift state:1253
+process version:0, version_count:1, state:1253, row:58, col:21
+lex_external state:2, row:58, column:21
+lex_internal state:13, row:58, column:21
+  consume character:':'
+lexed_lookahead sym::, size:1
+reduce sym:string, child_count:3
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+shift state:529
+process version:0, version_count:1, state:529, row:58, col:22
+lex_external state:2, row:58, column:22
+  skip character:' '
+  consume character:'B'
+lex_internal state:52, row:58, column:22
+  skip character:' '
+  consume character:'B'
+  consume character:'d'
+  consume character:'i'
+  consume character:'s'
+  consume character:'t'
+  consume character:'W'
+  consume character:'h'
+  consume character:'e'
+  consume character:'e'
+  consume character:'l'
+lexed_lookahead sym:identifier, size:11
+shift state:1110
+process version:0, version_count:1, state:1110, row:58, col:33
+lex_external state:12, row:58, column:33
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:14, row:58, column:33
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'}'
+lexed_lookahead sym:}, size:6
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:pair, child_count:3
+reduce sym:dictionary_repeat1, child_count:2
+shift state:1301
+process version:0, version_count:1, state:1301, row:59, col:5
+lex_external state:13, row:59, column:5
+lex_internal state:13, row:59, column:5
+  consume character:','
+lexed_lookahead sym:,, size:1
+reduce sym:dictionary, child_count:4
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:276
+process version:0, version_count:1, state:276, row:59, col:6
+lex_external state:7, row:59, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+lex_internal state:5, row:59, column:6
+  skip character:10
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  skip character:' '
+  consume character:'z'
+  consume character:'i'
+  consume character:'p'
+  consume character:'_'
+  consume character:'s'
+  consume character:'a'
+  consume character:'f'
+  consume character:'e'
+lexed_lookahead sym:identifier, size:13
+shift state:1401
+process version:0, version_count:1, state:1401, row:60, col:12
+lex_external state:13, row:60, column:12
+lex_internal state:14, row:60, column:12
+  consume character:'='
+lexed_lookahead sym:=, size:1
+shift state:586
+process version:0, version_count:1, state:586, row:60, col:13
+lex_external state:2, row:60, column:13
+  consume character:'F'
+lex_internal state:52, row:60, column:13
+  consume character:'F'
+  consume character:'a'
+  consume character:'l'
+  consume character:'s'
+  consume character:'e'
+  consume character:'F'
+  consume character:'a'
+  consume character:'l'
+  consume character:'s'
+  consume character:'e'
+lexed_lookahead sym:false, size:5
+shift state:1270
+process version:0, version_count:1, state:1270, row:60, col:18
+lex_external state:13, row:60, column:18
+  skip character:10
+lex_internal state:13, row:60, column:18
+  skip character:10
+  consume character:')'
+lexed_lookahead sym:), size:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:keyword_argument, child_count:3
+reduce sym:argument_list_repeat1, child_count:2
+reduce sym:argument_list_repeat1, child_count:2
+shift state:1077
+process version:0, version_count:1, state:1077, row:61, col:1
+lex_external state:9, row:61, column:1
+  skip character:10
+lexed_lookahead sym:_newline, size:0
+reduce sym:argument_list, child_count:4
+reduce sym:call, child_count:2
+reduce sym:primary_expression, child_count:1
+reduce sym:expression, child_count:1
+reduce sym:expression_statement, child_count:1
+shift state:683
+process version:0, version_count:1, state:683, row:61, col:1
+lex_external state:2, row:61, column:1
+  skip character:10
+lex_internal state:52, row:61, column:1
+  skip character:10
+lexed_lookahead sym:end, size:1
+reduce sym:_simple_statements, child_count:2
+reduce sym:module_repeat1, child_count:2
+reduce sym:module, child_count:1
+accept
+done
+(module [0, 0] - [62, 0]
+  (import_from_statement [0, 0] - [0, 31]
+    module_name: (dotted_name [0, 5] - [0, 12]
+      (identifier [0, 5] - [0, 7])
+      (identifier [0, 8] - [0, 12]))
+    name: (dotted_name [0, 20] - [0, 25]
+      (identifier [0, 20] - [0, 25]))
+    name: (dotted_name [0, 27] - [0, 31]
+      (identifier [0, 27] - [0, 31])))
+  (import_from_statement [1, 0] - [1, 27]
+    module_name: (dotted_name [1, 5] - [1, 13]
+      (identifier [1, 5] - [1, 13]))
+    name: (dotted_name [1, 21] - [1, 27]
+      (identifier [1, 21] - [1, 27])))
+  (import_from_statement [3, 0] - [3, 54]
+    module_name: (dotted_name [3, 5] - [3, 15]
+      (identifier [3, 5] - [3, 15]))
+    name: (dotted_name [3, 23] - [3, 32]
+      (identifier [3, 23] - [3, 32]))
+    name: (dotted_name [3, 34] - [3, 47]
+      (identifier [3, 34] - [3, 47]))
+    name: (dotted_name [3, 49] - [3, 54]
+      (identifier [3, 49] - [3, 54])))
+  (import_from_statement [4, 0] - [4, 42]
+    module_name: (dotted_name [4, 5] - [4, 29]
+      (identifier [4, 5] - [4, 15])
+      (identifier [4, 16] - [4, 23])
+      (identifier [4, 24] - [4, 29]))
+    name: (dotted_name [4, 37] - [4, 42]
+      (identifier [4, 37] - [4, 42])))
+  (import_from_statement [5, 0] - [5, 41]
+    module_name: (dotted_name [5, 5] - [5, 22]
+      (identifier [5, 5] - [5, 10])
+      (identifier [5, 11] - [5, 22]))
+    name: (dotted_name [5, 30] - [5, 41]
+      (identifier [5, 30] - [5, 41])))
+  (class_definition [8, 0] - [13, 21]
+    name: (identifier [8, 6] - [8, 11])
+    superclasses: (argument_list [8, 11] - [8, 18]
+      (identifier [8, 12] - [8, 17]))
+    body: (block [9, 4] - [13, 21]
+      (function_definition [9, 4] - [13, 21]
+        name: (identifier [9, 8] - [9, 11])
+        parameters: (parameters [9, 11] - [9, 17]
+          (identifier [9, 12] - [9, 16]))
+        body: (block [10, 8] - [13, 21]
+          (if_statement [10, 8] - [12, 43]
+            condition: (call [10, 11] - [10, 27]
+              function: (identifier [10, 11] - [10, 16])
+              arguments: (argument_list [10, 16] - [10, 27]
+                (string [10, 17] - [10, 26]
+                  (string_start [10, 17] - [10, 18])
+                  (string_content [10, 18] - [10, 25])
+                  (string_end [10, 25] - [10, 26]))))
+            consequence: (block [11, 12] - [12, 43]
+              (expression_statement [11, 12] - [11, 72]
+                (assignment [11, 12] - [11, 72]
+                  left: (identifier [11, 12] - [11, 16])
+                  right: (call [11, 19] - [11, 72]
+                    function: (identifier [11, 19] - [11, 23])
+                    arguments: (argument_list [11, 23] - [11, 72]
+                      (attribute [11, 24] - [11, 38]
+                        object: (identifier [11, 24] - [11, 28])
+                        attribute: (identifier [11, 29] - [11, 38]))
+                      (string [11, 40] - [11, 60]
+                        (string_start [11, 40] - [11, 41])
+                        (string_content [11, 41] - [11, 59])
+                        (string_end [11, 59] - [11, 60]))
+                      (string [11, 62] - [11, 71]
+                        (string_start [11, 62] - [11, 63])
+                        (string_content [11, 63] - [11, 70])
+                        (string_end [11, 70] - [11, 71]))))))
+              (expression_statement [12, 12] - [12, 43]
+                (call [12, 12] - [12, 43]
+                  function: (attribute [12, 12] - [12, 26]
+                    object: (identifier [12, 12] - [12, 16])
+                    attribute: (identifier [12, 17] - [12, 26]))
+                  arguments: (argument_list [12, 26] - [12, 43]
+                    (string [12, 27] - [12, 36]
+                      (string_start [12, 27] - [12, 28])
+                      (string_content [12, 28] - [12, 35])
+                      (string_end [12, 35] - [12, 36]))
+                    (identifier [12, 38] - [12, 42]))))))
+          (expression_statement [13, 8] - [13, 21]
+            (call [13, 8] - [13, 21]
+              function: (attribute [13, 8] - [13, 19]
+                object: (call [13, 8] - [13, 15]
+                  function: (identifier [13, 8] - [13, 13])
+                  arguments: (argument_list [13, 13] - [13, 15]))
+                attribute: (identifier [13, 16] - [13, 19]))
+              arguments: (argument_list [13, 19] - [13, 21])))))))
+  (class_definition [16, 0] - [21, 36]
+    name: (identifier [16, 6] - [16, 16])
+    superclasses: (argument_list [16, 16] - [16, 29]
+      (identifier [16, 17] - [16, 28]))
+    body: (block [17, 4] - [21, 36]
+      (function_definition [17, 4] - [21, 36]
+        name: (identifier [17, 8] - [17, 15])
+        parameters: (parameters [17, 15] - [17, 21]
+          (identifier [17, 16] - [17, 20]))
+        body: (block [18, 8] - [21, 36]
+          (expression_statement [18, 8] - [18, 49]
+            (assignment [18, 8] - [18, 49]
+              left: (pattern_list [18, 8] - [18, 29]
+                (identifier [18, 8] - [18, 14])
+                (identifier [18, 16] - [18, 19])
+                (identifier [18, 21] - [18, 29]))
+              right: (call [18, 32] - [18, 49]
+                function: (attribute [18, 32] - [18, 47]
+                  object: (call [18, 32] - [18, 39]
+                    function: (identifier [18, 32] - [18, 37])
+                    arguments: (argument_list [18, 37] - [18, 39]))
+                  attribute: (identifier [18, 40] - [18, 47]))
+                arguments: (argument_list [18, 47] - [18, 49]))))
+          (if_statement [19, 8] - [20, 40]
+            condition: (call [19, 11] - [19, 34]
+              function: (attribute [19, 11] - [19, 28]
+                object: (identifier [19, 11] - [19, 17])
+                attribute: (identifier [19, 18] - [19, 28]))
+              arguments: (argument_list [19, 28] - [19, 34]
+                (string [19, 29] - [19, 33]
+                  (string_start [19, 29] - [19, 30])
+                  (string_content [19, 30] - [19, 32])
+                  (string_end [19, 32] - [19, 33]))))
+            consequence: (block [20, 12] - [20, 40]
+              (expression_statement [20, 12] - [20, 40]
+                (assignment [20, 12] - [20, 40]
+                  left: (pattern_list [20, 12] - [20, 23]
+                    (identifier [20, 12] - [20, 18])
+                    (identifier [20, 20] - [20, 23]))
+                  right: (expression_list [20, 26] - [20, 40]
+                    (string [20, 26] - [20, 32]
+                      (string_start [20, 26] - [20, 27])
+                      (string_content [20, 27] - [20, 31])
+                      (string_end [20, 31] - [20, 32]))
+                    (string [20, 34] - [20, 40]
+                      (string_start [20, 34] - [20, 35])
+                      (string_content [20, 35] - [20, 39])
+                      (string_end [20, 39] - [20, 40])))))))
+          (return_statement [21, 8] - [21, 36]
+            (expression_list [21, 15] - [21, 36]
+              (identifier [21, 15] - [21, 21])
+              (identifier [21, 23] - [21, 26])
+              (identifier [21, 28] - [21, 36])))))))
+  (expression_statement [24, 0] - [61, 1]
+    (call [24, 0] - [61, 1]
+      function: (identifier [24, 0] - [24, 5])
+      arguments: (argument_list [24, 5] - [61, 1]
+        (keyword_argument [25, 4] - [25, 45]
+          name: (identifier [25, 4] - [25, 12])
+          value: (call [25, 13] - [25, 45]
+            function: (identifier [25, 13] - [25, 26])
+            arguments: (argument_list [25, 26] - [25, 45]
+              (string [25, 27] - [25, 44]
+                (string_start [25, 27] - [25, 28])
+                (string_content [25, 28] - [25, 43])
+                (string_end [25, 43] - [25, 44])))))
+        (keyword_argument [26, 4] - [26, 39]
+          name: (identifier [26, 4] - [26, 15])
+          value: (dictionary [26, 16] - [26, 39]
+            (pair [26, 17] - [26, 38]
+              key: (string [26, 17] - [26, 19]
+                (string_start [26, 17] - [26, 18])
+                (string_end [26, 18] - [26, 19]))
+              value: (string [26, 21] - [26, 38]
+                (string_start [26, 21] - [26, 22])
+                (string_content [26, 22] - [26, 37])
+                (string_end [26, 37] - [26, 38])))))
+        (keyword_argument [27, 4] - [30, 5]
+          name: (identifier [27, 4] - [27, 16])
+          value: (dictionary [27, 17] - [30, 5]
+            (pair [28, 8] - [28, 51]
+              key: (string [28, 8] - [28, 28]
+                (string_start [28, 8] - [28, 9])
+                (string_content [28, 9] - [28, 27])
+                (string_end [28, 27] - [28, 28]))
+              value: (list [28, 30] - [28, 51]
+                (string [28, 31] - [28, 38]
+                  (string_start [28, 31] - [28, 32])
+                  (string_content [28, 32] - [28, 37])
+                  (string_end [28, 37] - [28, 38]))
+                (string [28, 40] - [28, 50]
+                  (string_start [28, 40] - [28, 41])
+                  (string_content [28, 41] - [28, 49])
+                  (string_end [28, 49] - [28, 50]))))
+            (pair [29, 8] - [29, 47]
+              key: (string [29, 8] - [29, 36]
+                (string_start [29, 8] - [29, 9])
+                (string_content [29, 9] - [29, 35])
+                (string_end [29, 35] - [29, 36]))
+              value: (list [29, 38] - [29, 47]
+                (string [29, 39] - [29, 46]
+                  (string_start [29, 39] - [29, 40])
+                  (string_content [29, 40] - [29, 45])
+                  (string_end [29, 45] - [29, 46]))))))
+        (keyword_argument [31, 4] - [31, 36]
+          name: (identifier [31, 4] - [31, 15])
+          value: (string [31, 16] - [31, 36]
+            (string_start [31, 16] - [31, 17])
+            (string_content [31, 17] - [31, 35])
+            (string_end [31, 35] - [31, 36])))
+        (keyword_argument [32, 4] - [55, 5]
+          name: (identifier [32, 4] - [32, 15])
+          value: (list [32, 16] - [55, 5]
+            (call [33, 8] - [54, 9]
+              function: (identifier [33, 8] - [33, 17])
+              arguments: (argument_list [33, 17] - [54, 9]
+                (keyword_argument [34, 12] - [34, 27]
+                  name: (identifier [34, 12] - [34, 16])
+                  value: (string [34, 17] - [34, 27]
+                    (string_start [34, 17] - [34, 18])
+                    (string_content [34, 18] - [34, 26])
+                    (string_end [34, 26] - [34, 27])))
+                (keyword_argument [35, 12] - [39, 13]
+                  name: (identifier [35, 12] - [35, 19])
+                  value: (list [35, 20] - [39, 13]
+                    (string [36, 16] - [36, 62]
+                      (string_start [36, 16] - [36, 17])
+                      (string_content [36, 17] - [36, 61])
+                      (string_end [36, 61] - [36, 62]))
+                    (string [37, 16] - [37, 30]
+                      (string_start [37, 16] - [37, 17])
+                      (string_content [37, 17] - [37, 29])
+                      (string_end [37, 29] - [37, 30]))
+                    (string [38, 16] - [38, 31]
+                      (string_start [38, 16] - [38, 17])
+                      (string_content [38, 17] - [38, 30])
+                      (string_end [38, 30] - [38, 31]))))
+                (keyword_argument [40, 12] - [46, 13]
+                  name: (identifier [40, 12] - [40, 30])
+                  value: (conditional_expression [40, 31] - [46, 13]
+                    (list [40, 31] - [43, 13]
+                      (string [41, 16] - [41, 26]
+                        (string_start [41, 16] - [41, 17])
+                        (string_content [41, 17] - [41, 25])
+                        (string_end [41, 25] - [41, 26]))
+                      (string [42, 16] - [42, 37]
+                        (string_start [42, 16] - [42, 17])
+                        (string_content [42, 17] - [42, 36])
+                        (string_end [42, 36] - [42, 37])))
+                    (comparison_operator [43, 17] - [43, 38]
+                      (call [43, 17] - [43, 25]
+                        function: (identifier [43, 17] - [43, 23])
+                        arguments: (argument_list [43, 23] - [43, 25]))
+                      (string [43, 29] - [43, 38]
+                        (string_start [43, 29] - [43, 30])
+                        (string_content [43, 30] - [43, 37])
+                        (string_end [43, 37] - [43, 38])))
+                    (list [43, 44] - [46, 13]
+                      (string [44, 16] - [44, 26]
+                        (string_start [44, 16] - [44, 17])
+                        (string_content [44, 17] - [44, 25])
+                        (string_end [44, 25] - [44, 26]))
+                      (string [45, 16] - [45, 24]
+                        (string_start [45, 16] - [45, 17])
+                        (string_content [45, 17] - [45, 23])
+                        (string_end [45, 23] - [45, 24])))))
+                (keyword_argument [47, 12] - [51, 13]
+                  name: (identifier [47, 12] - [47, 25])
+                  value: (list [47, 26] - [51, 13]
+                    (tuple [48, 16] - [48, 48]
+                      (string [48, 17] - [48, 33]
+                        (string_start [48, 17] - [48, 18])
+                        (string_content [48, 18] - [48, 32])
+                        (string_end [48, 32] - [48, 33]))
+                      (string [48, 35] - [48, 47]
+                        (string_start [48, 35] - [48, 36])
+                        (string_content [48, 36] - [48, 46])
+                        (string_end [48, 46] - [48, 47])))
+                    (tuple [49, 16] - [49, 42]
+                      (string [49, 17] - [49, 35]
+                        (string_start [49, 17] - [49, 18])
+                        (string_content [49, 18] - [49, 34])
+                        (string_end [49, 34] - [49, 35]))
+                      (none [49, 37] - [49, 41]))
+                    (tuple [50, 16] - [50, 50]
+                      (string [50, 17] - [50, 43]
+                        (string_start [50, 17] - [50, 18])
+                        (string_content [50, 18] - [50, 42])
+                        (string_end [50, 42] - [50, 43]))
+                      (none [50, 45] - [50, 49]))))
+                (keyword_argument [52, 12] - [52, 32]
+                  name: (identifier [52, 12] - [52, 24])
+                  value: (list [52, 25] - [52, 32]
+                    (string [52, 26] - [52, 31]
+                      (string_start [52, 26] - [52, 27])
+                      (string_content [52, 27] - [52, 30])
+                      (string_end [52, 30] - [52, 31]))))
+                (keyword_argument [53, 12] - [53, 31]
+                  name: (identifier [53, 12] - [53, 26])
+                  value: (true [53, 27] - [53, 31]))))))
+        (keyword_argument [56, 4] - [59, 5]
+          name: (identifier [56, 4] - [56, 12])
+          value: (dictionary [56, 13] - [59, 5]
+            (pair [57, 8] - [57, 22]
+              key: (string [57, 8] - [57, 15]
+                (string_start [57, 8] - [57, 9])
+                (string_content [57, 9] - [57, 14])
+                (string_end [57, 14] - [57, 15]))
+              value: (identifier [57, 17] - [57, 22]))
+            (pair [58, 8] - [58, 33]
+              key: (string [58, 8] - [58, 21]
+                (string_start [58, 8] - [58, 9])
+                (string_content [58, 9] - [58, 20])
+                (string_end [58, 20] - [58, 21]))
+              value: (identifier [58, 23] - [58, 33]))))
+        (keyword_argument [60, 4] - [60, 18]
+          name: (identifier [60, 4] - [60, 12])
+          value: (false [60, 13] - [60, 18]))))))
